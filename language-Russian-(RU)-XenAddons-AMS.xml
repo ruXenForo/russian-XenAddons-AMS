@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="XenAddons/AMS" base_version_id="2010770" export_version="2">
+  <phrase title="ad_pos.ams_article_view_above_article" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[AMS Article view: Above article content]]></phrase>
+  <phrase title="ad_pos.ams_article_view_below_article" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[AMS Article view: Below article content]]></phrase>
+  <phrase title="ad_pos_desc.ams_article_view_above_article" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Advertising position above the article content when viewing an article.]]></phrase>
+  <phrase title="ad_pos_desc.ams_article_view_below_article" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Advertising position below the article content when viewing an article.]]></phrase>
+  <phrase title="admin_navigation.xaAmsCategoryPermissions" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article category permissions]]></phrase>
+  <phrase title="admin_navigation.xaAmsOptions" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS options]]></phrase>
+  <phrase title="admin_navigation.xa_ams" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS - Articles]]></phrase>
+  <phrase title="admin_navigation.xa_amsArticleFields" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article fields]]></phrase>
+  <phrase title="admin_navigation.xa_amsBatchUpdateArticles" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Batch update articles]]></phrase>
+  <phrase title="admin_navigation.xa_amsCategories" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article categories]]></phrase>
+  <phrase title="admin_navigation.xa_amsFeeds" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[RSS feed importer]]></phrase>
+  <phrase title="admin_navigation.xa_amsPrefixes" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article prefixes]]></phrase>
+  <phrase title="admin_navigation.xa_amsReplyBans" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Article reply bans]]></phrase>
+  <phrase title="admin_navigation.xa_amsReviewFields" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Review fields]]></phrase>
+  <phrase title="admin_permission.articleManagementSystem" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Manage Article Management System]]></phrase>
+  <phrase title="alert_opt_out.ams_article_insert" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Adds a new article to a watched category]]></phrase>
+  <phrase title="alert_opt_out.ams_article_mention" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Mentions you in an article]]></phrase>
+  <phrase title="alert_opt_out.ams_article_reaction" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Reacts to your article]]></phrase>
+  <phrase title="alert_opt_out.ams_comment_insert" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comments on a watched article
+]]></phrase>
+  <phrase title="alert_opt_out.ams_comment_mention" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Mentions you in a article comment]]></phrase>
+  <phrase title="alert_opt_out.ams_comment_quote" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Quotes your article comment]]></phrase>
+  <phrase title="alert_opt_out.ams_comment_reaction" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Reacts to your article comment]]></phrase>
+  <phrase title="alert_opt_out.ams_rating_insert" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Rates your article]]></phrase>
+  <phrase title="alert_opt_out.ams_rating_mention" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Mentions you in a article review]]></phrase>
+  <phrase title="alert_opt_out.ams_rating_reaction" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Reacts to your article review]]></phrase>
+  <phrase title="alert_opt_out.ams_series_part_insert" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[Adds a new article to a watched series]]></phrase>
+  <phrase title="ams_about_author" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[About author]]></phrase>
+  <phrase title="ams_comment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment]]></phrase>
+  <phrase title="ams_comment_author" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comment author]]></phrase>
+  <phrase title="ams_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS comments]]></phrase>
+  <phrase title="ams_page" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article page]]></phrase>
+  <phrase title="ams_rating" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rating]]></phrase>
+  <phrase title="ams_rating_author" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rating author]]></phrase>
+  <phrase title="cron_entry.xaAmsCleanUpDaily" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Daily clean up]]></phrase>
+  <phrase title="cron_entry.xaAmsCleanUpHourly" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Hourly clean up]]></phrase>
+  <phrase title="cron_entry.xaAmsFeeder" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Feeder]]></phrase>
+  <phrase title="cron_entry.xaAmsViews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Update view counters]]></phrase>
+  <phrase title="cron_entry.xa_amsCacheStats" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: Cache article management system statistics]]></phrase>
+  <phrase title="custom_bb_code_desc.ams" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[BB code for displaying articles and series]]></phrase>
+  <phrase title="custom_bb_code_example.ams" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[[AMS=article, X]AMS Article BB Code[/AMS]]]></phrase>
+  <phrase title="custom_bb_code_output.ams" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.ams" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Article/Series embed]]></phrase>
+  <phrase title="member_stat.xa_ams_most_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Most articles]]></phrase>
+  <phrase title="mod_log.ams_article_approve" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article approved]]></phrase>
+  <phrase title="mod_log.ams_article_custom_fields_edit" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article fields edited]]></phrase>
+  <phrase title="mod_log.ams_article_delete_hard" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article permanently deleted]]></phrase>
+  <phrase title="mod_log.ams_article_delete_soft" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article removed from public view (reason: {reason})]]></phrase>
+  <phrase title="mod_log.ams_article_edit" addon_id="XenAddons/AMS" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[Article edited]]></phrase>
+  <phrase title="mod_log.ams_article_feature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article featured]]></phrase>
+  <phrase title="mod_log.ams_article_move" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article moved]]></phrase>
+  <phrase title="mod_log.ams_article_prefix" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article prefix edited from '{old}']]></phrase>
+  <phrase title="mod_log.ams_article_reassign" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article reassigned (from {from})]]></phrase>
+  <phrase title="mod_log.ams_article_reply_ban" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[{name} banned from replying to article (reason: {reason})]]></phrase>
+  <phrase title="mod_log.ams_article_reply_ban_delete" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[{name}'s article reply ban removed]]></phrase>
+  <phrase title="mod_log.ams_article_title" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article title edited from '{old}']]></phrase>
+  <phrase title="mod_log.ams_article_unapprove" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article unapproved]]></phrase>
+  <phrase title="mod_log.ams_article_undelete" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article undeleted]]></phrase>
+  <phrase title="mod_log.ams_article_unfeature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article unfeatured]]></phrase>
+  <phrase title="mod_log.ams_article_warning_expired" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article author warning expired]]></phrase>
+  <phrase title="mod_log.ams_article_warning_given" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article author given warning]]></phrase>
+  <phrase title="mod_log.ams_article_warning_removed" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article author warning removed]]></phrase>
+  <phrase title="mod_log.ams_comment_approve" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment approved]]></phrase>
+  <phrase title="mod_log.ams_comment_delete_hard" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment premanently deleted]]></phrase>
+  <phrase title="mod_log.ams_comment_delete_soft" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment removed from public view (reason: {reason})]]></phrase>
+  <phrase title="mod_log.ams_comment_edit" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment edited]]></phrase>
+  <phrase title="mod_log.ams_comment_merge_target" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Comment modified by merging comments ({ids})]]></phrase>
+  <phrase title="mod_log.ams_comment_unapprove" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment unapproved]]></phrase>
+  <phrase title="mod_log.ams_comment_undelete" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment undeleted]]></phrase>
+  <phrase title="mod_log.ams_comment_warning_expired" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment author warning expired]]></phrase>
+  <phrase title="mod_log.ams_comment_warning_given" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment author given warning]]></phrase>
+  <phrase title="mod_log.ams_comment_warning_removed" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment author warning removed]]></phrase>
+  <phrase title="mod_log.ams_page_delete_hard" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article page permanently deleted]]></phrase>
+  <phrase title="mod_log.ams_page_delete_soft" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article page removed from public view (reason: {reason})]]></phrase>
+  <phrase title="mod_log.ams_page_title" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article page title edited from '{old}']]></phrase>
+  <phrase title="mod_log.ams_page_undelete" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article page undeleted]]></phrase>
+  <phrase title="mod_log.ams_rating_approve" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article rating approved]]></phrase>
+  <phrase title="mod_log.ams_rating_delete_hard" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article review permanently deleted]]></phrase>
+  <phrase title="mod_log.ams_rating_delete_response" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article review response deleted]]></phrase>
+  <phrase title="mod_log.ams_rating_delete_soft" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Article review removed from public view (reason: {reason})]]></phrase>
+  <phrase title="mod_log.ams_rating_edit" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article rating edited]]></phrase>
+  <phrase title="mod_log.ams_rating_unapprove" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article rating unapproved]]></phrase>
+  <phrase title="mod_log.ams_rating_undelete" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article review undeleted]]></phrase>
+  <phrase title="mod_log.ams_rating_warning_expired" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article rating author warning expired]]></phrase>
+  <phrase title="mod_log.ams_rating_warning_given" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article rating author given warning]]></phrase>
+  <phrase title="mod_log.ams_rating_warning_removed" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article rating author warning removed]]></phrase>
+  <phrase title="mod_log.ams_series_delete_hard" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series permanently deleted]]></phrase>
+  <phrase title="mod_log.ams_series_edit" addon_id="XenAddons/AMS" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[Series edited]]></phrase>
+  <phrase title="mod_log.ams_series_feature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series featured]]></phrase>
+  <phrase title="mod_log.ams_series_part_delete_hard" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series part permanently deleted]]></phrase>
+  <phrase title="mod_log.ams_series_part_title" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series part title edited from '{old}']]></phrase>
+  <phrase title="mod_log.ams_series_title" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series title edit from '{old}']]></phrase>
+  <phrase title="mod_log.ams_series_unfeature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series unfeatured]]></phrase>
+  <phrase title="nav.xaAmsWhatsNewArticleComments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New article comments]]></phrase>
+  <phrase title="nav.xaAmsWhatsNewNewArticles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New articles]]></phrase>
+  <phrase title="nav.xa_ams" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[Articles]]></phrase>
+  <phrase title="nav.xa_amsMarkRead" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Mark read]]></phrase>
+  <phrase title="nav.xa_amsNewArticles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New articles]]></phrase>
+  <phrase title="nav.xa_amsNewComments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New comments]]></phrase>
+  <phrase title="nav.xa_amsSearchArticles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Search articles]]></phrase>
+  <phrase title="nav.xa_amsSeries" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series]]></phrase>
+  <phrase title="nav.xa_amsWatchedArticles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watched articles]]></phrase>
+  <phrase title="nav.xa_amsWatchedCategories" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watched categories]]></phrase>
+  <phrase title="nav.xa_amsWatchedContent" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watched]]></phrase>
+  <phrase title="nav.xa_amsWatchedSeries" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watched series]]></phrase>
+  <phrase title="nav.xa_amsYourArticles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your articles]]></phrase>
+  <phrase title="option.xaAmsAllowedFileExtensions" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allowed article attachment file extensions]]></phrase>
+  <phrase title="option.xaAmsArticleAttachmentMaxFileSize" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Maximum article attachment file size (KB)]]></phrase>
+  <phrase title="option.xaAmsArticleDeleteThreadAction" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article deletion thread action]]></phrase>
+  <phrase title="option.xaAmsArticleListLayoutType" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article list layout type]]></phrase>
+  <phrase title="option.xaAmsArticleMaxLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Maximum article length]]></phrase>
+  <phrase title="option.xaAmsArticlesPerPage" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Articles per page (list view)]]></phrase>
+  <phrase title="option.xaAmsArticlesPerPageAV" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Articles per page (article view)]]></phrase>
+  <phrase title="option.xaAmsArticlesPerPageGV" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Articles per page (grid view)]]></phrase>
+  <phrase title="option.xaAmsArticlesPerPageTV" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Articles per page (tile view)]]></phrase>
+  <phrase title="option.xaAmsAttachmentMaxPerArticle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Maximum attachments per article]]></phrase>
+  <phrase title="option.xaAmsAuthorOtherArticlesCount" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Author's other articles count]]></phrase>
+  <phrase title="option.xaAmsAutoUnfeatureArticles" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Automatically unfeature any "featured" articles older than x days.]]></phrase>
+  <phrase title="option.xaAmsCategoryOtherArticlesCount" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Category's other articles count]]></phrase>
+  <phrase title="option.xaAmsCommentMaxLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Maximum comment length]]></phrase>
+  <phrase title="option.xaAmsCommentsPerPage" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comments per page]]></phrase>
+  <phrase title="option.xaAmsDisplayShareBelowArticle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Display share icons below article]]></phrase>
+  <phrase title="option.xaAmsDisplayUserProfileAboutMe" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Use the "About me" data for the "About author" block if the "About article author" is empty]]></phrase>
+  <phrase title="option.xaAmsFeaturedArticlesDisplayType" addon_id="XenAddons/AMS" version_id="2010170" version_string="2.1.1"><![CDATA[Featured articles display type]]></phrase>
+  <phrase title="option.xaAmsFilesLocation" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[File attachments location]]></phrase>
+  <phrase title="option.xaAmsGalleryLocation" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Image gallery location]]></phrase>
+  <phrase title="option.xaAmsGoogleMapsEmbedApiKey" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Google Maps Embed API Key]]></phrase>
+  <phrase title="option.xaAmsIndexPageType" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[AMS index page type]]></phrase>
+  <phrase title="option.xaAmsLatestReviewsCutOffDays" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Latest reviews cut off days]]></phrase>
+  <phrase title="option.xaAmsLimitedViewArticleLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Limited view article length]]></phrase>
+  <phrase title="option.xaAmsListDefaultOrder" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Default article list order]]></phrase>
+  <phrase title="option.xaAmsLocationDisplayType" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Location display type]]></phrase>
+  <phrase title="option.xaAmsMetaDescription" addon_id="XenAddons/AMS" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[AMS meta description]]></phrase>
+  <phrase title="option.xaAmsMinimumReviewLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Minimum review length]]></phrase>
+  <phrase title="option.xaAmsOverrideStyle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Override default style]]></phrase>
+  <phrase title="option.xaAmsRecentReviewsCount" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Recent reviews count]]></phrase>
+  <phrase title="option.xaAmsReviewMaxLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Maximum review length]]></phrase>
+  <phrase title="option.xaAmsReviewsPerPage" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Reviews per page]]></phrase>
+  <phrase title="option.xaAmsSeriesListShowTitleFilters" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Show title filter]]></phrase>
+  <phrase title="option.xaAmsSeriesPartsPerPage" addon_id="XenAddons/AMS" version_id="2010470" version_string="2.1.4"><![CDATA[Series parts per page]]></phrase>
+  <phrase title="option.xaAmsSeriesPerPage" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series per page]]></phrase>
+  <phrase title="option.xaAmsShowRatingFilters" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Show avg rating filter]]></phrase>
+  <phrase title="option.xaAmsShowTitleFilters" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Show title filter]]></phrase>
+  <phrase title="option.xaAmsSignatureOnComments" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Display signatures on comments]]></phrase>
+  <phrase title="option.xaAmsSnippetLengthAV" addon_id="XenAddons/AMS" version_id="2010170" version_string="2.1.1"><![CDATA[Snippet length (article view)]]></phrase>
+  <phrase title="option.xaAmsSnippetLengthLV" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Snippet length (list view)]]></phrase>
+  <phrase title="option.xaAmsUnreadCounter" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Display unread articles counter]]></phrase>
+  <phrase title="option.xaAmsViewFullArticle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Enable 'View full article' links on multi page articles]]></phrase>
+  <phrase title="option_explain.xaAmsAllowedFileExtensions" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[List the file extensions that are allowed to be uploaded to articles. Use spaces or line break between extensions.]]></phrase>
+  <phrase title="option_explain.xaAmsArticleAttachmentMaxFileSize" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Provide the maximum article attachment file size in kilobytes (KB). Attachments over this size will be rejected.]]></phrase>
+  <phrase title="option_explain.xaAmsArticleDeleteThreadAction" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When an article is deleted, take this action with any automatically created thread associated with the article.]]></phrase>
+  <phrase title="option_explain.xaAmsArticleListLayoutType" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Choose the layout type you want to use to display articles on ams index, category pages and other various pages with article listings.  <b>Note</b>:  Individual category pages can override this setting and use a different layout type.]]></phrase>
+  <phrase title="option_explain.xaAmsArticleMaxLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The maximum number of characters that can be in an article. This includes BB code. <b>Note</b>: Use 0 to disable the limit.]]></phrase>
+  <phrase title="option_explain.xaAmsArticlesPerPage" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[The number of articles that will be listed per page on various pages with article listings that use the list view layout type.]]></phrase>
+  <phrase title="option_explain.xaAmsArticlesPerPageAV" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The number of articles that will be listed per page on various pages with article listings that use the article view layout type.]]></phrase>
+  <phrase title="option_explain.xaAmsArticlesPerPageGV" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[The number of articles that will be listed per page on various pages with article listings that use the grid view layout type.]]></phrase>
+  <phrase title="option_explain.xaAmsArticlesPerPageTV" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[The number of articles that will be listed per page on various pages with article listings that use the tile view layout type.]]></phrase>
+  <phrase title="option_explain.xaAmsAttachmentMaxPerArticle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Use 0 to allow an unlimited number of attachments per article. To disable article attachments, use the permissions system.]]></phrase>
+  <phrase title="option_explain.xaAmsAuthorOtherArticlesCount" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The maximum number of other articles to display from an article's author. Use 0 to disable this block.]]></phrase>
+  <phrase title="option_explain.xaAmsAutoUnfeatureArticles" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[If enabled, will automatically unfeature any featured articles that are older than x days (from the date the article was featured).]]></phrase>
+  <phrase title="option_explain.xaAmsCategoryOtherArticlesCount" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The maximum number of other articles to display from an article's category. Use 0 to disable this block.]]></phrase>
+  <phrase title="option_explain.xaAmsCommentMaxLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The maximum number of characters that can be in an article comment. This includes BB code. Use 0 to disable the limit.]]></phrase>
+  <phrase title="option_explain.xaAmsCommentsPerPage" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xaAmsDisplayShareBelowArticle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[When enabled, will display share icons below the article.]]></phrase>
+  <phrase title="option_explain.xaAmsDisplayUserProfileAboutMe" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[If the "About article author" is empty, this will attempt to use the "About me" data from the members profile for the "About author" block.]]></phrase>
+  <phrase title="option_explain.xaAmsFeaturedArticlesDisplayType" addon_id="XenAddons/AMS" version_id="2010170" version_string="2.1.1"><![CDATA[Choose the display type you want to use to display featured articles on ams index, category pages and other various pages with article listings.]]></phrase>
+  <phrase title="option_explain.xaAmsFilesLocation" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Controls where the collection of uploaded file attachments will be displayed]]></phrase>
+  <phrase title="option_explain.xaAmsGalleryLocation" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Controls where the collection of uploaded images will be displayed]]></phrase>
+  <phrase title="option_explain.xaAmsGoogleMapsEmbedApiKey" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Input your Google Maps Embed API Key here. Instructions on generating and retrieving your Google Maps Embed API key can be found <a href="https://developers.google.com/maps/documentation/embed/guide#api_key">here</a>.]]></phrase>
+  <phrase title="option_explain.xaAmsIndexPageType" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Choose the type of Home Page that you want to use for AMS.  
+<br>
+<ul>
+<li>Standard = Index of all articles in a filterable listing.</li>
+<li>Modular = Blank page with Main and Sidebar Widget Locations</li>
+</ul>]]></phrase>
+  <phrase title="option_explain.xaAmsLatestReviewsCutOffDays" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[This is the number of days old that a review can be in order for it to be fetched.  Reviews that are older than the cutoff date will not be displayed.  Leave this option set to 0 to bypass the cut off date.]]></phrase>
+  <phrase title="option_explain.xaAmsLimitedViewArticleLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Users that do not have the permission to view full articles will only see this number of characters of the article.  <b>Note:</b> This setting also applies to Article view layout.]]></phrase>
+  <phrase title="option_explain.xaAmsListDefaultOrder" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When viewing various pages with article listings, this will be the default sort order that is set.]]></phrase>
+  <phrase title="option_explain.xaAmsLocationDisplayType" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Controls how the location data will be displayed when viewing an article]]></phrase>
+  <phrase title="option_explain.xaAmsMetaDescription" addon_id="XenAddons/AMS" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Enter a meta description for your Article Management System Home Page. This will be placed inside the meta description tag on the AMS Index page, so avoid using HTML.]]></phrase>
+  <phrase title="option_explain.xaAmsMinimumReviewLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[If a review is entered, it will not be accepted unless it is at least this long. If a review is not required, this setting will be ignored if no review is entered.]]></phrase>
+  <phrase title="option_explain.xaAmsOverrideStyle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The style selected here will be displayed on all ams pages instead of the default style.]]></phrase>
+  <phrase title="option_explain.xaAmsRecentReviewsCount" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The maximum number of recent reviews to display on the main article view page. <b>Note</b>: Use 0 to disable this block.]]></phrase>
+  <phrase title="option_explain.xaAmsReviewMaxLength" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The maximum number of characters that can be in an article review. This includes BB code. Use 0 to disable the limit.]]></phrase>
+  <phrase title="option_explain.xaAmsReviewsPerPage" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xaAmsSeriesListShowTitleFilters" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[If enabled, the title filter will be enabled on the series list page]]></phrase>
+  <phrase title="option_explain.xaAmsSeriesPartsPerPage" addon_id="XenAddons/AMS" version_id="2010470" version_string="2.1.4"><![CDATA[The number of series parts that will be listed per page on a series page.]]></phrase>
+  <phrase title="option_explain.xaAmsSeriesPerPage" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The number of series that will be listed per page on series index and other various pages with series listings.]]></phrase>
+  <phrase title="option_explain.xaAmsShowRatingFilters" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[If enabled, the ave rating filter will be enabled on article listing pages]]></phrase>
+  <phrase title="option_explain.xaAmsShowTitleFilters" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[If enabled, the title filter will be enabled on article listing pages]]></phrase>
+  <phrase title="option_explain.xaAmsSignatureOnComments" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[When enabled, signatures will display on comments just like they do on posts.]]></phrase>
+  <phrase title="option_explain.xaAmsSnippetLengthAV" addon_id="XenAddons/AMS" version_id="2010170" version_string="2.1.1"><![CDATA[The number of characters of the article preview to display on the article view layout type.]]></phrase>
+  <phrase title="option_explain.xaAmsSnippetLengthLV" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The number of characters of the article preview to display on the list view layout type.]]></phrase>
+  <phrase title="option_explain.xaAmsUnreadCounter" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[If enabled, the count of unread articles will display above the "Articles" navigation tab.]]></phrase>
+  <phrase title="option_explain.xaAmsViewFullArticle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, will add "View full article" links to various navigation elements on a multi page article, allowing the viewing user to view the full article on a single page.]]></phrase>
+  <phrase title="option_group.xaAms" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article Management System]]></phrase>
+  <phrase title="option_group_description.xaAms" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Options that control the article management system add-on.]]></phrase>
+  <phrase title="permission.xa_ams_add" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Create articles]]></phrase>
+  <phrase title="permission.xa_ams_addComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Post comments]]></phrase>
+  <phrase title="permission.xa_ams_addPageOwnArticle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Create pages for own articles]]></phrase>
+  <phrase title="permission.xa_ams_addToAnySeries" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Add article to any series]]></phrase>
+  <phrase title="permission.xa_ams_addToCommunitySeries" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Add article to community series]]></phrase>
+  <phrase title="permission.xa_ams_approveUnapprove" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve / unapprove articles]]></phrase>
+  <phrase title="permission.xa_ams_approveUnapproveComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve / unapprove comments]]></phrase>
+  <phrase title="permission.xa_ams_approveUnapproveReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve / unapprove reviews]]></phrase>
+  <phrase title="permission.xa_ams_articleReplyBan" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Ban users from posting comments/ratings on an article]]></phrase>
+  <phrase title="permission.xa_ams_changeDiscussionThread" addon_id="XenAddons/AMS" version_id="2010270" version_string="2.1.2"><![CDATA[Change discussion thread]]></phrase>
+  <phrase title="permission.xa_ams_createSeries" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Create series]]></phrase>
+  <phrase title="permission.xa_ams_deleteAny" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete any article]]></phrase>
+  <phrase title="permission.xa_ams_deleteAnyComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete any comment]]></phrase>
+  <phrase title="permission.xa_ams_deleteAnyReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete any review]]></phrase>
+  <phrase title="permission.xa_ams_deleteComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete own comment]]></phrase>
+  <phrase title="permission.xa_ams_deleteOwn" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete own articles]]></phrase>
+  <phrase title="permission.xa_ams_deleteReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete own review]]></phrase>
+  <phrase title="permission.xa_ams_editAny" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit any article]]></phrase>
+  <phrase title="permission.xa_ams_editAnyComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit any comment]]></phrase>
+  <phrase title="permission.xa_ams_editAnyReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit any review]]></phrase>
+  <phrase title="permission.xa_ams_editComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit own comment]]></phrase>
+  <phrase title="permission.xa_ams_editOwn" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit own articles]]></phrase>
+  <phrase title="permission.xa_ams_editOwnArticleTimeLimit" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Time limit on editing/deleting own articles (minutes)]]></phrase>
+  <phrase title="permission.xa_ams_editOwnCommentTimeLimit" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Time limit on editing/deleting own comments (minutes)]]></phrase>
+  <phrase title="permission.xa_ams_editOwnReviewTimeLimit" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Time limit on editing/deleting own reviews (minutes)]]></phrase>
+  <phrase title="permission.xa_ams_editReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit own review]]></phrase>
+  <phrase title="permission.xa_ams_featureUnfeature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Feature / unfeature articles]]></phrase>
+  <phrase title="permission.xa_ams_featureUnfeatureOwn" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Feature / unfeature own articles]]></phrase>
+  <phrase title="permission.xa_ams_featureUnfeatureSeriesAny" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Feature / unfeature series]]></phrase>
+  <phrase title="permission.xa_ams_hardDeleteAny" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Hard-delete articles]]></phrase>
+  <phrase title="permission.xa_ams_hardDeleteAnyComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Hard delete any comment]]></phrase>
+  <phrase title="permission.xa_ams_hardDeleteAnyReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Hard delete any review]]></phrase>
+  <phrase title="permission.xa_ams_inlineMod" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Use inline moderation on articles]]></phrase>
+  <phrase title="permission.xa_ams_inlineModComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Use inline moderation on comments]]></phrase>
+  <phrase title="permission.xa_ams_inlineModReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Use inline moderation on reviews]]></phrase>
+  <phrase title="permission.xa_ams_lockUnlockCommentsAny" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Lock / unlock comments on articles]]></phrase>
+  <phrase title="permission.xa_ams_lockUnlockCommentsOwn" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Lock / unlock comments for own article]]></phrase>
+  <phrase title="permission.xa_ams_lockUnlockRatingsAny" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Lock / unlock ratings on articles]]></phrase>
+  <phrase title="permission.xa_ams_lockUnlockRatingsOwn" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Lock / unlock ratings for own article]]></phrase>
+  <phrase title="permission.xa_ams_manageAnyTag" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Manage any tags]]></phrase>
+  <phrase title="permission.xa_ams_manageOthersTagsOwnArt" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Manage tags by others in own article]]></phrase>
+  <phrase title="permission.xa_ams_manageRatings" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Manage ratings]]></phrase>
+  <phrase title="permission.xa_ams_manageSeriesAny" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Manage any series]]></phrase>
+  <phrase title="permission.xa_ams_manageSeriesOwn" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Manage own series]]></phrase>
+  <phrase title="permission.xa_ams_maxArticleCount" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Max articles per user]]></phrase>
+  <phrase title="permission.xa_ams_maxSeriesCount" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Max series per user]]></phrase>
+  <phrase title="permission.xa_ams_move" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Move articles]]></phrase>
+  <phrase title="permission.xa_ams_moveOwn" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Move own articles]]></phrase>
+  <phrase title="permission.xa_ams_rate" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Rate/Review articles]]></phrase>
+  <phrase title="permission.xa_ams_rateOwn" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Rate/Review own articles]]></phrase>
+  <phrase title="permission.xa_ams_react" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[React to articles]]></phrase>
+  <phrase title="permission.xa_ams_reactComment" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[React to comments]]></phrase>
+  <phrase title="permission.xa_ams_reactReview" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[React to reviews]]></phrase>
+  <phrase title="permission.xa_ams_reassign" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Reassign articles]]></phrase>
+  <phrase title="permission.xa_ams_reassignComment" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Reassign comments]]></phrase>
+  <phrase title="permission.xa_ams_reassignReview" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Reassign reviews]]></phrase>
+  <phrase title="permission.xa_ams_reviewAnon" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Review articles anonymously]]></phrase>
+  <phrase title="permission.xa_ams_reviewMultiple" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Review articles multiple times]]></phrase>
+  <phrase title="permission.xa_ams_reviewReply" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Reply to reviews for own articles]]></phrase>
+  <phrase title="permission.xa_ams_submitWithoutApproval" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Submit articles without approval]]></phrase>
+  <phrase title="permission.xa_ams_tagAnyArticle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Tag any article]]></phrase>
+  <phrase title="permission.xa_ams_tagOwnArticle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Tag own article]]></phrase>
+  <phrase title="permission.xa_ams_undelete" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete articles]]></phrase>
+  <phrase title="permission.xa_ams_undeleteComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete comments]]></phrase>
+  <phrase title="permission.xa_ams_undeleteReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete reviews]]></phrase>
+  <phrase title="permission.xa_ams_uploadArticleAttach" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Upload attachments to articles]]></phrase>
+  <phrase title="permission.xa_ams_uploadArticleVideo" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Upload videos to articles]]></phrase>
+  <phrase title="permission.xa_ams_uploadCommentAttach" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Upload images to comments]]></phrase>
+  <phrase title="permission.xa_ams_uploadCommentVideo" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Upload videos to comments]]></phrase>
+  <phrase title="permission.xa_ams_uploadReviewAttach" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Upload images to reviews]]></phrase>
+  <phrase title="permission.xa_ams_uploadReviewVideo" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Upload videos to reviews]]></phrase>
+  <phrase title="permission.xa_ams_view" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View article management system]]></phrase>
+  <phrase title="permission.xa_ams_viewArticleAttach" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View article attachments]]></phrase>
+  <phrase title="permission.xa_ams_viewCommentAttach" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View comment attachments]]></phrase>
+  <phrase title="permission.xa_ams_viewComments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View comments]]></phrase>
+  <phrase title="permission.xa_ams_viewDeleted" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View deleted articles]]></phrase>
+  <phrase title="permission.xa_ams_viewDeletedComments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View deleted comments]]></phrase>
+  <phrase title="permission.xa_ams_viewDeletedReviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View deleted reviews]]></phrase>
+  <phrase title="permission.xa_ams_viewFull" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View full article]]></phrase>
+  <phrase title="permission.xa_ams_viewModerated" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View unapproved articles]]></phrase>
+  <phrase title="permission.xa_ams_viewModeratedComments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View unapproved comments]]></phrase>
+  <phrase title="permission.xa_ams_viewModeratedReviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View unapproved reviews]]></phrase>
+  <phrase title="permission.xa_ams_viewOthers" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View articles by others]]></phrase>
+  <phrase title="permission.xa_ams_viewReviewAttach" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View review attachments]]></phrase>
+  <phrase title="permission.xa_ams_viewReviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View reviews]]></phrase>
+  <phrase title="permission.xa_ams_votePoll" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[Vote on polls]]></phrase>
+  <phrase title="permission.xa_ams_warn" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Give warnings on articles]]></phrase>
+  <phrase title="permission.xa_ams_warnComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Give warnings on comments]]></phrase>
+  <phrase title="permission.xa_ams_warnReview" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Give warnings on reviews]]></phrase>
+  <phrase title="permission_interface.xa_amsArticle" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Article permissions]]></phrase>
+  <phrase title="permission_interface.xa_amsArticleModerator" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Article moderator permissions]]></phrase>
+  <phrase title="permission_interface.xa_amsComment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Comment permissions]]></phrase>
+  <phrase title="permission_interface.xa_amsCommentModerator" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Comment moderator permissions]]></phrase>
+  <phrase title="permission_interface.xa_amsRating" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Rate/Review permissions]]></phrase>
+  <phrase title="permission_interface.xa_amsRatingModerator" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Rate/Review moderator permissions]]></phrase>
+  <phrase title="widget_def.xa_ams_article_poll" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[AMS: Article poll]]></phrase>
+  <phrase title="widget_def.xa_ams_article_statistics" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: Articles statistics]]></phrase>
+  <phrase title="widget_def.xa_ams_category_nav" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[AMS: Category navigation]]></phrase>
+  <phrase title="widget_def.xa_ams_featured_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Featured articles]]></phrase>
+  <phrase title="widget_def.xa_ams_latest_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Latest articles]]></phrase>
+  <phrase title="widget_def.xa_ams_latest_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Latest comments]]></phrase>
+  <phrase title="widget_def.xa_ams_latest_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS: Latest reviews]]></phrase>
+  <phrase title="widget_def_desc.xa_ams_article_poll" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[Displays the specified poll in a widget.]]></phrase>
+  <phrase title="widget_def_desc.xa_ams_article_statistics" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Displays various article management system statistics]]></phrase>
+  <phrase title="widget_def_desc.xa_ams_category_nav" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Displays the article management system category navigation]]></phrase>
+  <phrase title="widget_def_desc.xa_ams_featured_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Displays featured articles from the article management system]]></phrase>
+  <phrase title="widget_def_desc.xa_ams_latest_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Displays the latest article management system articles]]></phrase>
+  <phrase title="widget_def_desc.xa_ams_latest_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Displays the latest article management system comments]]></phrase>
+  <phrase title="widget_def_desc.xa_ams_latest_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Displays the latest article reviews.]]></phrase>
+  <phrase title="widget_pos.xa_ams_category_above_articles" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[AMS category: Above articles]]></phrase>
+  <phrase title="widget_pos.xa_ams_category_sidebar" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS category: Sidebar]]></phrase>
+  <phrase title="widget_pos.xa_ams_category_sidenav" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[AMS category: Sidenav]]></phrase>
+  <phrase title="widget_pos.xa_ams_index_above_articles" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[AMS index: Above articles]]></phrase>
+  <phrase title="widget_pos.xa_ams_index_sidebar" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS index: Sidebar]]></phrase>
+  <phrase title="widget_pos.xa_ams_index_sidenav" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS index: Sidenav]]></phrase>
+  <phrase title="widget_pos.xa_ams_modular_index_main" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[AMS modular index: Main]]></phrase>
+  <phrase title="widget_pos.xa_ams_modular_index_sidebar" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[AMS modular index: Sidebar]]></phrase>
+  <phrase title="widget_pos.xa_ams_series_index_above_series_list" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[AMS series index: Above series list]]></phrase>
+  <phrase title="widget_pos.xa_ams_series_index_sidebar" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS series index: Sidebar]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_category_above_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[A position inside the main content area of the ams category page above the articles list.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_category_sidebar" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Displays inside the sidebar on the ams category pages. Widget templates rendered in this position can use the current category entity in the <code>{$context.category}</code> param.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_category_sidenav" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Displays inside the side navigation on the ams category pages. Widget templates rendered in this position can use the current category entity in the <code>{$context.category}</code> param.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_index_above_articles" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[A position inside the main content area of the ams index page above the articles list.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_index_sidebar" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Displays inside the sidebar on the ams index page.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_index_sidenav" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Displays inside the side navigation on the ams index page.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_modular_index_main" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Displays inside the main column on the ams modular index page, so can support larger widgets.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_modular_index_sidebar" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Displays inside the sidebar on the ams modular index page.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_series_index_above_series_list" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[A position inside the main content area of the ams series index page above the series list.]]></phrase>
+  <phrase title="widget_pos_desc.xa_ams_series_index_sidebar" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Displays inside the sidebar on the ams series index page.]]></phrase>
+  <phrase title="xa_ams_2_stars_up" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[2 Stars &amp; up]]></phrase>
+  <phrase title="xa_ams_3_stars_up" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[3 Stars &amp; up]]></phrase>
+  <phrase title="xa_ams_4_stars_up" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[4 Stars &amp; up]]></phrase>
+  <phrase title="xa_ams_5_stars" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[5 Stars]]></phrase>
+  <phrase title="xa_ams_about_article_author" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[About article author]]></phrase>
+  <phrase title="xa_ams_about_article_author_explain" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[This information will display in the "About author" block on articles that you create. ]]></phrase>
+  <phrase title="xa_ams_about_author" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[About author]]></phrase>
+  <phrase title="xa_ams_above_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Above article]]></phrase>
+  <phrase title="xa_ams_add_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Add article]]></phrase>
+  <phrase title="xa_ams_add_article_to_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Add article to series]]></phrase>
+  <phrase title="xa_ams_add_page" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Add page]]></phrase>
+  <phrase title="xa_ams_add_series_part" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Add series part]]></phrase>
+  <phrase title="xa_ams_add_x" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[Add {term}]]></phrase>
+  <phrase title="xa_ams_additional_information" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Additional information]]></phrase>
+  <phrase title="xa_ams_all_categories_or_contextual_category" addon_id="XenAddons/AMS" version_id="2010070" version_string="2.1.0"><![CDATA[All categories or contextual category]]></phrase>
+  <phrase title="xa_ams_all_categories_or_contextual_explain" addon_id="XenAddons/AMS" version_id="2010070" version_string="2.1.0"><![CDATA[If no categories are explicitly selected, this widget will pull from all categories unless used within an AMS category. In this case, the content will be limited to that category and descendents.]]></phrase>
+  <phrase title="xa_ams_all_comments_reviews_from_other_articles_will_be_merged_into_this_article" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[All comments and reviews from the other articles will be merged into this article.]]></phrase>
+  <phrase title="xa_ams_allow_anon_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allow anonymous reviews]]></phrase>
+  <phrase title="xa_ams_allow_anon_reviews_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, users will have the option to leave an anonymous review.]]></phrase>
+  <phrase title="xa_ams_allow_articles_to_be_created" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allow articles to be created]]></phrase>
+  <phrase title="xa_ams_allow_articles_to_be_created_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This option allows Articles to be created in this category. Disabling this option does not prevent existing articles from being moved into this category.]]></phrase>
+  <phrase title="xa_ams_allow_author_rating" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allow author rating]]></phrase>
+  <phrase title="xa_ams_allow_author_rating_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, this option allows the article author to set an author rating when creating or editing the article. This rating is separate from user ratings.]]></phrase>
+  <phrase title="xa_ams_allow_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allow comments]]></phrase>
+  <phrase title="xa_ams_allow_comments_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This option allows comments for articles in this category. This option can be enabled/disabled at any time and only effects articles within this specific category.
+
+<b>Important note:</b> Comment Permissions determin whether or not the viewing user can view/post comments. ]]></phrase>
+  <phrase title="xa_ams_allow_location" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allow location]]></phrase>
+  <phrase title="xa_ams_allow_location_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When this option is enabled, a location field will be available on the article create/edit form. This location field will be used to display a link in the header or Information sidebar block that when clicked on will open up a Google map to the location.]]></phrase>
+  <phrase title="xa_ams_allow_original_source" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allow original source]]></phrase>
+  <phrase title="xa_ams_allow_original_source_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This option allows authors to add original source data to their articles]]></phrase>
+  <phrase title="xa_ams_allow_poll" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[Allow poll]]></phrase>
+  <phrase title="xa_ams_allow_poll_explain" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[When this option is enabled, a poll can be added to articles within this category. ]]></phrase>
+  <phrase title="xa_ams_allow_pros_cons" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allow pros and cons]]></phrase>
+  <phrase title="xa_ams_allow_pros_cons_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, users will be able to input pros and cons when submitting a review for an article. ]]></phrase>
+  <phrase title="xa_ams_allow_ratings" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Allow ratings]]></phrase>
+  <phrase title="xa_ams_allow_ratings_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, users with the appropriate permissions will be able to rate and or review articles within this category. ]]></phrase>
+  <phrase title="xa_ams_ams_article_count" addon_id="XenAddons/AMS" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[AMS: Article count]]></phrase>
+  <phrase title="xa_ams_ams_series_count" addon_id="XenAddons/AMS" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[AMS: Series count]]></phrase>
+  <phrase title="xa_ams_applicable_categories" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Applicable categories]]></phrase>
+  <phrase title="xa_ams_apply_article_prefix_to_multiple_categories" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The articles you have selected are located in more than one category. Each article will only be updated if the chosen prefix is valid in its category.]]></phrase>
+  <phrase title="xa_ams_apply_category_options" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Apply category options]]></phrase>
+  <phrase title="xa_ams_apply_prefix_to_selected_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Apply prefix to selected articles]]></phrase>
+  <phrase title="xa_ams_approve_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve article]]></phrase>
+  <phrase title="xa_ams_approve_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve articles]]></phrase>
+  <phrase title="xa_ams_approve_comment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve comment]]></phrase>
+  <phrase title="xa_ams_approve_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve comments]]></phrase>
+  <phrase title="xa_ams_approve_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve review]]></phrase>
+  <phrase title="xa_ams_approve_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Approve reviews]]></phrase>
+  <phrase title="xa_ams_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article]]></phrase>
+  <phrase title="xa_ams_article_categories" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article categories]]></phrase>
+  <phrase title="xa_ams_article_category" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Article category]]></phrase>
+  <phrase title="xa_ams_article_category_permissions" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article category permissions]]></phrase>
+  <phrase title="xa_ams_article_comment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comment]]></phrase>
+  <phrase title="xa_ams_article_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article comments]]></phrase>
+  <phrase title="xa_ams_article_count" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article count]]></phrase>
+  <phrase title="xa_ams_article_counts" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article counts]]></phrase>
+  <phrase title="xa_ams_article_field_desc.asm_text_input_1" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[]]></phrase>
+  <phrase title="xa_ams_article_field_options" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article field options]]></phrase>
+  <phrase title="xa_ams_article_fields" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article fields]]></phrase>
+  <phrase title="xa_ams_article_header" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article header]]></phrase>
+  <phrase title="xa_ams_article_information" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article information]]></phrase>
+  <phrase title="xa_ams_article_list_default_sort_order" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Article list default sort order]]></phrase>
+  <phrase title="xa_ams_article_list_layout_type" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article list layout type]]></phrase>
+  <phrase title="xa_ams_article_list_options" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article list options]]></phrase>
+  <phrase title="xa_ams_article_page_options" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article page options]]></phrase>
+  <phrase title="xa_ams_article_prefixes" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article prefixes]]></phrase>
+  <phrase title="xa_ams_article_quick_feature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Feature article]]></phrase>
+  <phrase title="xa_ams_article_quick_unfeature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unfeature article]]></phrase>
+  <phrase title="xa_ams_article_rating" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article rating]]></phrase>
+  <phrase title="xa_ams_article_ratings" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article ratings]]></phrase>
+  <phrase title="xa_ams_article_reactions" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Article reactions]]></phrase>
+  <phrase title="xa_ams_article_reply_bans" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Article reply bans]]></phrase>
+  <phrase title="xa_ams_article_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article review]]></phrase>
+  <phrase title="xa_ams_article_review_in_x" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article review in '{title}']]></phrase>
+  <phrase title="xa_ams_article_thread_create" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[This thread is for the general discussion of the {term} [url={article_link}][plain]{title}[/plain][/url]. Please add to the discussion here.]]></phrase>
+  <phrase title="xa_ams_article_thread_delete" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This article has been removed.]]></phrase>
+  <phrase title="xa_ams_article_thread_update" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[The article [url={article_link}][plain]{title}[/plain][/url] has been updated:
+
+{message}]]></phrase>
+  <phrase title="xa_ams_article_view_layout" addon_id="XenAddons/AMS" version_id="2010170" version_string="2.1.1"><![CDATA[Article view]]></phrase>
+  <phrase title="xa_ams_article_watched" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article watched]]></phrase>
+  <phrase title="xa_ams_article_x" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article '{title}']]></phrase>
+  <phrase title="xa_ams_article_x_in_category_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Article '{title}' in category '{category}']]></phrase>
+  <phrase title="xa_ams_article_x_new_watched_category" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[{article} - New article in watched category]]></phrase>
+  <phrase title="xa_ams_article_x_posted_in_category_y" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[<a href="{articleLink}">{articleTitle}</a> posted in article category <a href="{categoryLink}">{categoryTitle}</a>]]></phrase>
+  <phrase title="xa_ams_article_x_was_reassigned_to_you" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The article {title} was reassigned to you.]]></phrase>
+  <phrase title="xa_ams_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Articles]]></phrase>
+  <phrase title="xa_ams_articles_by_x" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Articles by {name}]]></phrase>
+  <phrase title="xa_ams_articles_categories" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Articles categories]]></phrase>
+  <phrase title="xa_ams_articles_grid" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Articles grid]]></phrase>
+  <phrase title="xa_ams_articles_grid_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[A full size view, displaying articles in a grid container.]]></phrase>
+  <phrase title="xa_ams_articles_statistics" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Articles statistics]]></phrase>
+  <phrase title="xa_ams_articles_that_have_been_rated" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Articles that have been rated]]></phrase>
+  <phrase title="xa_ams_articles_with_comments" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Articles with comments]]></phrase>
+  <phrase title="xa_ams_articles_with_reviews" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Articles with reviews]]></phrase>
+  <phrase title="xa_ams_associate_discussion_thread" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Associate discussion thread]]></phrase>
+  <phrase title="xa_ams_associate_discussion_thread_explain" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[This action will associate an existing discussion thread with this article.]]></phrase>
+  <phrase title="xa_ams_author" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Author]]></phrase>
+  <phrase title="xa_ams_author_rating" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Author rating]]></phrase>
+  <phrase title="xa_ams_automatically_create_thread_in_forum" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Automatically create thread in forum]]></phrase>
+  <phrase title="xa_ams_automatically_created_thread_prefix" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Automatically created thread prefix]]></phrase>
+  <phrase title="xa_ams_automatically_post_in_article_thread_on_article_deletion" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Automatically post in the article thread on article deletion]]></phrase>
+  <phrase title="xa_ams_avg_rating" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Avg rating]]></phrase>
+  <phrase title="xa_ams_batch_update_articles" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Batch update articles]]></phrase>
+  <phrase title="xa_ams_below_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Below article]]></phrase>
+  <phrase title="xa_ams_block_title_link" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Block title link]]></phrase>
+  <phrase title="xa_ams_block_title_link_link_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Add a specific URL that you want the block title to link to.  Leaving this blank will link to "New Articles"
+]]></phrase>
+  <phrase title="xa_ams_bottom_below_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Bottom - below review]]></phrase>
+  <phrase title="xa_ams_by" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[By]]></phrase>
+  <phrase title="xa_ams_can_not_change_date_into_the_future" addon_id="XenAddons/AMS" version_id="2010470" version_string="2.1.4"><![CDATA[Can not change date into the future. ]]></phrase>
+  <phrase title="xa_ams_can_not_set_comemnt_date_older_than_article_publish_date" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Can not set comment date older than the article publish date. ]]></phrase>
+  <phrase title="xa_ams_can_not_set_review_date_older_than_article_publish_date" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Can not set review date older than the article publish date]]></phrase>
+  <phrase title="xa_ams_cannot_update_rating_once_author_response" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[You can not update your rating or review once the author has responded.]]></phrase>
+  <phrase title="xa_ams_carousel" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Carousel]]></phrase>
+  <phrase title="xa_ams_carousel_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[A full size view, displaying articles in a carousel style slider.]]></phrase>
+  <phrase title="xa_ams_categories" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Categories]]></phrase>
+  <phrase title="xa_ams_category" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Category]]></phrase>
+  <phrase title="xa_ams_category_content" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Category content]]></phrase>
+  <phrase title="xa_ams_category_content_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This content is optional and is used to display custom content on the first page of a category before the listing of articles. 
+<br /><br />
+You may use HTML. The text (or HTML) you insert here must be valid within a &lt;p&gt; tag.]]></phrase>
+  <phrase title="xa_ams_category_content_image" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Category content image]]></phrase>
+  <phrase title="xa_ams_category_content_image_explain" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Upload category images to styles/default/xenaddons/ams/category_images]]></phrase>
+  <phrase title="xa_ams_category_content_term" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[Category content term]]></phrase>
+  <phrase title="xa_ams_category_content_term_explain" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[The type of content being published for this category, eg Poem, Guide, Book, How To, Owners Manual, Interview etc etc etc. 
+
+<b>Note</b>: If you leave this blank, the generic term "Article" will be used.]]></phrase>
+  <phrase title="xa_ams_category_content_title" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Category content title]]></phrase>
+  <phrase title="xa_ams_category_content_title_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This title is optional and will be used to generate a Title bar for the category content. If you leave the title blank, the category content will not have a title bar.]]></phrase>
+  <phrase title="xa_ams_category_extra_options" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Category extra options]]></phrase>
+  <phrase title="xa_ams_category_limit" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Category limit]]></phrase>
+  <phrase title="xa_ams_category_not_allow_new_articles" addon_id="XenAddons/AMS" version_id="2000270" version_string="2.0.2"><![CDATA[Category does not allow new articles to be added.]]></phrase>
+  <phrase title="xa_ams_category_watched" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Category watched]]></phrase>
+  <phrase title="xa_ams_change_article_dates" addon_id="XenAddons/AMS" version_id="2010470" version_string="2.1.4"><![CDATA[Change article dates]]></phrase>
+  <phrase title="xa_ams_change_comment_date" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Change comment date]]></phrase>
+  <phrase title="xa_ams_change_date" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Change date]]></phrase>
+  <phrase title="xa_ams_change_discussion_thread" addon_id="XenAddons/AMS" version_id="2010270" version_string="2.1.2"><![CDATA[Change discussion thread]]></phrase>
+  <phrase title="xa_ams_change_review_date" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Change review date]]></phrase>
+  <phrase title="xa_ams_comment_by_x" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comment by '{user}']]></phrase>
+  <phrase title="xa_ams_comment_by_x_in_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comment by '{user}' in article '{title}']]></phrase>
+  <phrase title="xa_ams_comment_content" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comment content]]></phrase>
+  <phrase title="xa_ams_comment_count" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Comment count]]></phrase>
+  <phrase title="xa_ams_comment_count_between" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Comment count between]]></phrase>
+  <phrase title="xa_ams_comment_date" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Comment date]]></phrase>
+  <phrase title="xa_ams_comment_on_article_x_by_y" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Comment on article <a href="{commentLink}">{articleTitle}</a> by <a href="{userLink}">{userName}</a>]]></phrase>
+  <phrase title="xa_ams_comment_on_article_x_was_reassigned_to_you" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[A comment on the article {title} was reassigned to you.]]></phrase>
+  <phrase title="xa_ams_comment_reactions" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Comment reactions]]></phrase>
+  <phrase title="xa_ams_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comments]]></phrase>
+  <phrase title="xa_ams_comments_locked" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Comments locked]]></phrase>
+  <phrase title="xa_ams_comments_open" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comments open]]></phrase>
+  <phrase title="xa_ams_comments_open_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, registered users or guests with appropriate permissions may comment on this article.]]></phrase>
+  <phrase title="xa_ams_comments_posted_on" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Comments posted on]]></phrase>
+  <phrase title="xa_ams_community_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Community series]]></phrase>
+  <phrase title="xa_ams_community_series_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, allows other members of the community to add their own article(s) to this series. ]]></phrase>
+  <phrase title="xa_ams_community_series_information" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Community series information]]></phrase>
+  <phrase title="xa_ams_confirm_deletion_of_x_articles" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Confirm deletion of {total} articles]]></phrase>
+  <phrase title="xa_ams_cons" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Cons]]></phrase>
+  <phrase title="xa_ams_content_state" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Content state]]></phrase>
+  <phrase title="xa_ams_content_term_x" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[{term}]]></phrase>
+  <phrase title="xa_ams_contributors" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Contributors]]></phrase>
+  <phrase title="xa_ams_copy_ams_bb_code" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Copy AMS BB code]]></phrase>
+  <phrase title="xa_ams_copy_url_bb_code" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Copy URL BB code]]></phrase>
+  <phrase title="xa_ams_create_date" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Create date]]></phrase>
+  <phrase title="xa_ams_create_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Create series]]></phrase>
+  <phrase title="xa_ams_cut_off_days" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Cut off days]]></phrase>
+  <phrase title="xa_ams_default_article_prefix" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Default article prefix]]></phrase>
+  <phrase title="xa_ams_default_article_prefix_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You may specify an article prefix to be automatically selected when visitors create new articles in this category. The selected prefix must also be selected in the 'Available prefixes' list above.]]></phrase>
+  <phrase title="xa_ams_delete_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete article]]></phrase>
+  <phrase title="xa_ams_delete_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete articles]]></phrase>
+  <phrase title="xa_ams_delete_comment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete Comment]]></phrase>
+  <phrase title="xa_ams_delete_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete comments]]></phrase>
+  <phrase title="xa_ams_delete_current_icon" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete current icon]]></phrase>
+  <phrase title="xa_ams_delete_page" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete page]]></phrase>
+  <phrase title="xa_ams_delete_rating" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Delete rating]]></phrase>
+  <phrase title="xa_ams_delete_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete review]]></phrase>
+  <phrase title="xa_ams_delete_review_response" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete review response]]></phrase>
+  <phrase title="xa_ams_delete_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete reviews]]></phrase>
+  <phrase title="xa_ams_delete_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Delete series]]></phrase>
+  <phrase title="xa_ams_depth" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Depth]]></phrase>
+  <phrase title="xa_ams_destination_article" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Destination article]]></phrase>
+  <phrase title="xa_ams_destination_category" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Destination category]]></phrase>
+  <phrase title="xa_ams_disconnect_existing_discussion" addon_id="XenAddons/AMS" version_id="2010270" version_string="2.1.2"><![CDATA[Disconnect existing discussion]]></phrase>
+  <phrase title="xa_ams_discussion" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Discussion]]></phrase>
+  <phrase title="xa_ams_discussion_thread_url" addon_id="XenAddons/AMS" version_id="2010270" version_string="2.1.2"><![CDATA[Discussion thread URL]]></phrase>
+  <phrase title="xa_ams_display_about_author" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Display about author]]></phrase>
+  <phrase title="xa_ams_display_about_author_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, will display the about author block below the article. You must have the about author data entered via your user account (Account details >> About Author)]]></phrase>
+  <phrase title="xa_ams_display_as_map_below_item" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Display as map below article (requires API Key)]]></phrase>
+  <phrase title="xa_ams_display_as_map_in_own_tab" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Display as map in own tab (requires API Key)]]></phrase>
+  <phrase title="xa_ams_display_as_map_in_sidebar_block" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Display as map in sidebar block (requires API Key)]]></phrase>
+  <phrase title="xa_ams_display_cover_image_above_article" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[Display cover image above article]]></phrase>
+  <phrase title="xa_ams_display_cover_image_above_article_explain" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[When enabled, will display the cover image (if set), above the article.  ]]></phrase>
+  <phrase title="xa_ams_display_field_on_list" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Display field on list]]></phrase>
+  <phrase title="xa_ams_display_field_on_list_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, this field will be displayed with the article information on various article listing pages ]]></phrase>
+  <phrase title="xa_ams_display_link_article_info_block" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Display as link in article information block]]></phrase>
+  <phrase title="xa_ams_do_not_have_permission_to_view_full_content_of_this_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You do not have permission to view the full content of this article.]]></phrase>
+  <phrase title="xa_ams_do_not_have_permission_to_view_full_content_of_this_x" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[You do not have permission to view the full content of this {term}.]]></phrase>
+  <phrase title="xa_ams_downloads" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Downloads]]></phrase>
+  <phrase title="xa_ams_draft" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Draft]]></phrase>
+  <phrase title="xa_ams_draft_page_not_visible_public" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This page is currently in draft and not visible publicly. ]]></phrase>
+  <phrase title="xa_ams_edit_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit article]]></phrase>
+  <phrase title="xa_ams_edit_comment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit comment]]></phrase>
+  <phrase title="xa_ams_edit_page" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit page]]></phrase>
+  <phrase title="xa_ams_edit_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit review]]></phrase>
+  <phrase title="xa_ams_edit_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit series]]></phrase>
+  <phrase title="xa_ams_edit_series_icon" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit series icon]]></phrase>
+  <phrase title="xa_ams_edit_series_part" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Edit series part]]></phrase>
+  <phrase title="xa_ams_edit_x" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[Edit {term}]]></phrase>
+  <phrase title="xa_ams_embed_articles" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Embed articles]]></phrase>
+  <phrase title="xa_ams_existing_discussion_is_already_associated_with_another_content_type" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Existing discussion thread is already associated with another piece of content.]]></phrase>
+  <phrase title="xa_ams_explain_why_youre_giving_this_rating" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Explain why you're giving this rating. Reviews which are not constructive may be removed without notice.]]></phrase>
+  <phrase title="xa_ams_feature_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Feature articles]]></phrase>
+  <phrase title="xa_ams_featured" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Featured]]></phrase>
+  <phrase title="xa_ams_featured_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Featured articles]]></phrase>
+  <phrase title="xa_ams_featured_articles_carousel_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[A full size view, displaying featured articles in a carousel style slider.]]></phrase>
+  <phrase title="xa_ams_featured_articles_grid_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[A full size view, displaying featured articles in a grid container.]]></phrase>
+  <phrase title="xa_ams_featured_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Featured series]]></phrase>
+  <phrase title="xa_ams_filter_own" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Own]]></phrase>
+  <phrase title="xa_ams_find_all_articles_by_x" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Find all articles by {name}]]></phrase>
+  <phrase title="xa_ams_for_article_x_in_category_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[For {article} in {category}]]></phrase>
+  <phrase title="xa_ams_for_articles" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[for articles]]></phrase>
+  <phrase title="xa_ams_full_article_view_layout" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Full article view]]></phrase>
+  <phrase title="xa_ams_full_size_view_displaying_as_standard_article_list" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[A full size view, displaying as a standard article list.]]></phrase>
+  <phrase title="xa_ams_full_view" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Full view]]></phrase>
+  <phrase title="xa_ams_gallery" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Gallery]]></phrase>
+  <phrase title="xa_ams_grid" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Grid]]></phrase>
+  <phrase title="xa_ams_grid_view_layout" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Grid view]]></phrase>
+  <phrase title="xa_ams_has_comments" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Has comments]]></phrase>
+  <phrase title="xa_ams_has_parts" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Has parts]]></phrase>
+  <phrase title="xa_ams_has_reviews" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Has reviews]]></phrase>
+  <phrase title="xa_ams_hide_field_title" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Hide field title]]></phrase>
+  <phrase title="xa_ams_hide_field_title_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, the title of the field will not be displayed on the article, only the field content.]]></phrase>
+  <phrase title="xa_ams_if_selected_article_in_category_created_thread_posted_forum" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[If selected, whenever an article in this category is created, a thread will be posted in this forum.]]></phrase>
+  <phrase title="xa_ams_if_selected_only_staff_will_be_able_to_see_who_wrote_this_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[If selected, only staff will be able to see who wrote this review.]]></phrase>
+  <phrase title="xa_ams_if_selected_post_made_automatically_explaining_article_unavailable" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[If selected, a post will be made automatically on the creator's behalf explaining that the article is no longer available.]]></phrase>
+  <phrase title="xa_ams_if_selected_users_required_select_prefix_when_creating_editing" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[If selected, users will be required to select a prefix when creating or editing an article. This will not be enforced for moderators.]]></phrase>
+  <phrase title="xa_ams_include_article_comments" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Include article comments]]></phrase>
+  <phrase title="xa_ams_include_article_reviews" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Include article reviews]]></phrase>
+  <phrase title="xa_ams_inline_moderation_delete_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Inline moderation - Delete comments]]></phrase>
+  <phrase title="xa_ams_inline_moderation_delete_reviews" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[Inline moderation - Delete reviews]]></phrase>
+  <phrase title="xa_ams_inline_moderation_merge_articles" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Inline moderation - Merge articles]]></phrase>
+  <phrase title="xa_ams_inline_moderation_merge_comments" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Inline moderation - Merge comments]]></phrase>
+  <phrase title="xa_ams_is_rated" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Is rated]]></phrase>
+  <phrase title="xa_ams_join_discussion" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Join the discussion]]></phrase>
+  <phrase title="xa_ams_last_article_date" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Last article date]]></phrase>
+  <phrase title="xa_ams_last_update" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Last update]]></phrase>
+  <phrase title="xa_ams_latest_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Latest article]]></phrase>
+  <phrase title="xa_ams_latest_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Latest articles]]></phrase>
+  <phrase title="xa_ams_latest_articles_cut_off_days_limit_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[This is the number of days old that a article can be in order for it to be fetched.  Articles that are older than the cutoff date will not be fetch.  Leave this option set to 0 to bypass the cut off date.]]></phrase>
+  <phrase title="xa_ams_latest_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Latest comments]]></phrase>
+  <phrase title="xa_ams_latest_comments_limit" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Latest comments limit]]></phrase>
+  <phrase title="xa_ams_latest_comments_limit_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Specify the maximum number of article comments that should be shown in this widget.]]></phrase>
+  <phrase title="xa_ams_latest_part" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Latest part]]></phrase>
+  <phrase title="xa_ams_latest_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Latest reviews]]></phrase>
+  <phrase title="xa_ams_latest_reviews_cut_off_days_limit_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[This is the number of days old that a review can be in order for it to be fetched.  Reviews that are older than the cutoff date will not be displayed.  Leave this option set to 0 to bypass the cut off date.]]></phrase>
+  <phrase title="xa_ams_latest_reviews_limit" addon_id="XenAddons/AMS" version_id="2010070" version_string="2.1.0"><![CDATA[Latest reviews limit]]></phrase>
+  <phrase title="xa_ams_latest_reviews_limit_explain" addon_id="XenAddons/AMS" version_id="2010070" version_string="2.1.0"><![CDATA[Specify the maximum number of reviews that should be shown in this widget.]]></phrase>
+  <phrase title="xa_ams_latest_series_part" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Latest series part]]></phrase>
+  <phrase title="xa_ams_list_view_layout" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[List view]]></phrase>
+  <phrase title="xa_ams_location_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Enter the address of the location associated with your article if you wish to link to a google map. <br>
+eg 1600 Amphitheatre Parkway, Mountain View, CA 94043]]></phrase>
+  <phrase title="xa_ams_lock_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Lock comments]]></phrase>
+  <phrase title="xa_ams_lock_ratings" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Lock ratings]]></phrase>
+  <phrase title="xa_ams_manage_pages" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Manage pages]]></phrase>
+  <phrase title="xa_ams_manage_ratings" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Manage ratings]]></phrase>
+  <phrase title="xa_ams_manage_watched_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Manage watched articles]]></phrase>
+  <phrase title="xa_ams_manager" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Manager]]></phrase>
+  <phrase title="xa_ams_map" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Map]]></phrase>
+  <phrase title="xa_ams_mark_articles_read" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Mark articles read]]></phrase>
+  <phrase title="xa_ams_matched_articles" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Matched articles]]></phrase>
+  <phrase title="xa_ams_members_who_have_reacted_to_comment_by_x" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Members who have reacted to comment by {user}]]></phrase>
+  <phrase title="xa_ams_members_who_have_reacted_to_review_by_x" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Members who have reacted to review by {user}]]></phrase>
+  <phrase title="xa_ams_members_who_reacted_to_article" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Members who reacted to article '{title}']]></phrase>
+  <phrase title="xa_ams_merge_articles" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Merge articles]]></phrase>
+  <phrase title="xa_ams_merge_comments" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Merge comments]]></phrase>
+  <phrase title="xa_ams_merge_into_comment" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Merge into comment]]></phrase>
+  <phrase title="xa_ams_meta_description" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Meta description]]></phrase>
+  <phrase title="xa_ams_middle_above_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Middle - above review]]></phrase>
+  <phrase title="xa_ams_minimum_required_tags_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This allows you to require users to enter at least this many tags when adding articles or editing tags on existing articles.]]></phrase>
+  <phrase title="xa_ams_misc_options" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Misc options]]></phrase>
+  <phrase title="xa_ams_modular_index_page" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Modular index page]]></phrase>
+  <phrase title="xa_ams_more_from_x" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[More from {name}]]></phrase>
+  <phrase title="xa_ams_more_in_x" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[More in {title}]]></phrase>
+  <phrase title="xa_ams_move_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Move article]]></phrase>
+  <phrase title="xa_ams_move_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Move articles]]></phrase>
+  <phrase title="xa_ams_move_to_category" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Move to category]]></phrase>
+  <phrase title="xa_ams_move_to_category_prefixes_explain" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[If the selected articles(s) have any prefixes applied which are not valid in the selected category, those prefixes will be removed.]]></phrase>
+  <phrase title="xa_ams_new_article_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New article comments]]></phrase>
+  <phrase title="xa_ams_new_article_discussion_thread_must_be_standard_thread" addon_id="XenAddons/AMS" version_id="2010270" version_string="2.1.2"><![CDATA[The new article discussion thread must be a standard discussion thread.]]></phrase>
+  <phrase title="xa_ams_new_article_on_watched_series" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[New article on watched series]]></phrase>
+  <phrase title="xa_ams_new_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[New articles]]></phrase>
+  <phrase title="xa_ams_new_articles_and_updates" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New articles and updates]]></phrase>
+  <phrase title="xa_ams_new_articles_only" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New articles only]]></phrase>
+  <phrase title="xa_ams_new_comment_on_watched_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New comment on watched article]]></phrase>
+  <phrase title="xa_ams_new_owner" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New owner]]></phrase>
+  <phrase title="xa_ams_new_owner_must_be_able_to_view_this_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The new owner must be able to view this article.]]></phrase>
+  <phrase title="xa_ams_new_review_on_watched_article" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[New review on watched article]]></phrase>
+  <phrase title="xa_ams_new_series_parts" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New series parts]]></phrase>
+  <phrase title="xa_ams_new_series_parts_only" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[New series parts only]]></phrase>
+  <phrase title="xa_ams_no_article_could_be_found_with_id_x" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[No article could be found with the ID {article_id}.]]></phrase>
+  <phrase title="xa_ams_no_article_id_could_be_found_from_that_url" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[No article ID could be found from that URL.]]></phrase>
+  <phrase title="xa_ams_no_articles_have_been_added_to_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[No articles have been added to this series yet.]]></phrase>
+  <phrase title="xa_ams_no_articles_have_been_added_yet" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[No articles have been added yet.]]></phrase>
+  <phrase title="xa_ams_no_articles_have_been_created_yet" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[No articles have been created yet.]]></phrase>
+  <phrase title="xa_ams_no_articles_have_been_featured_yet" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[No articles have been featured yet]]></phrase>
+  <phrase title="xa_ams_no_change" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[No change]]></phrase>
+  <phrase title="xa_ams_no_gallery" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[No gallery]]></phrase>
+  <phrase title="xa_ams_no_pages_to_display" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[No pages to display]]></phrase>
+  <phrase title="xa_ams_no_prefixes_available_for_selected_categories" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[No prefixes are available for the specified categories.]]></phrase>
+  <phrase title="xa_ams_no_rating" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[No rating]]></phrase>
+  <phrase title="xa_ams_no_reviews_have_been_left_recently" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[No reviews have been left recently.]]></phrase>
+  <phrase title="xa_ams_no_series_have_been_added_yet" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[No series have been added yet.]]></phrase>
+  <phrase title="xa_ams_no_series_have_been_created_yet" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[No series have been created yet.]]></phrase>
+  <phrase title="xa_ams_not_open_for_further_reviews" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Not open for further reviews]]></phrase>
+  <phrase title="xa_ams_not_rated" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Not rated]]></phrase>
+  <phrase title="xa_ams_not_reviewed" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Not reviewed]]></phrase>
+  <phrase title="xa_ams_note_article_author_see_alert_even_no_longer_view_article" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Note that the article author will see this alert even if they can no longer view their article.]]></phrase>
+  <phrase title="xa_ams_notify_article_author_of_this_action" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Notify article author of this action]]></phrase>
+  <phrase title="xa_ams_notify_current_and_new_owners_of_this_action" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Notify the current and new owners of this action.]]></phrase>
+  <phrase title="xa_ams_notify_members_watching_destination_category" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Notify members watching the destination category]]></phrase>
+  <phrase title="xa_ams_only_display_within_selected_categories_no_children" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Only display within selected categories (rather than including child categories)]]></phrase>
+  <phrase title="xa_ams_optional_update_message" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Optional update message]]></phrase>
+  <phrase title="xa_ams_original_source" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source]]></phrase>
+  <phrase title="xa_ams_original_source_article_author" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source article author]]></phrase>
+  <phrase title="xa_ams_original_source_article_author_required" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source article author required]]></phrase>
+  <phrase title="xa_ams_original_source_article_date" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source article date]]></phrase>
+  <phrase title="xa_ams_original_source_article_date_required" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Orignal source article date required]]></phrase>
+  <phrase title="xa_ams_original_source_article_title" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source article title]]></phrase>
+  <phrase title="xa_ams_original_source_article_title_required" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source article title required]]></phrase>
+  <phrase title="xa_ams_original_source_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[<b><span style="color:red;">Admin, edit the phrase 'xa_ams_original_source_explain' to remove this text and add your own text explanation on how to use the original source fields.</span> </b>]]></phrase>
+  <phrase title="xa_ams_original_source_fields_required" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source fields are required!]]></phrase>
+  <phrase title="xa_ams_original_source_name" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source name]]></phrase>
+  <phrase title="xa_ams_original_source_name_required" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source name required]]></phrase>
+  <phrase title="xa_ams_original_source_url" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source URL]]></phrase>
+  <phrase title="xa_ams_original_source_url_required" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Original source URL required]]></phrase>
+  <phrase title="xa_ams_others_articles" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Other's articles]]></phrase>
+  <phrase title="xa_ams_others_series" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Other's series]]></phrase>
+  <phrase title="xa_ams_override_option_article_list_default_sort_order" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Override the ams option 'Article list default sort order']]></phrase>
+  <phrase title="xa_ams_override_option_article_list_default_sort_order_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[This option allows you to override the ams option 'Article list default sort order' and set a different article list default sort order for this category.]]></phrase>
+  <phrase title="xa_ams_override_option_article_list_layout_type" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Override ams option 'Article list layout type']]></phrase>
+  <phrase title="xa_ams_override_option_article_list_layout_type_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[This option allows you to override the ams optoin 'Article list layout type' and set a different article list layout type for this category.]]></phrase>
+  <phrase title="xa_ams_own_tab" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Own tab]]></phrase>
+  <phrase title="xa_ams_page_count" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Page count]]></phrase>
+  <phrase title="xa_ams_page_count_between" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Page count between]]></phrase>
+  <phrase title="xa_ams_page_depth_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This optional setting is used to add indents to page titles in the multi page navigation (to simulate hierarchy) ]]></phrase>
+  <phrase title="xa_ams_page_is_within_categories" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Page is within articles categories]]></phrase>
+  <phrase title="xa_ams_page_nav_title" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Navigation title]]></phrase>
+  <phrase title="xa_ams_page_nav_title_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This optional title is for use with the multipage pagination function where a short version of the title is more appropriate. Leave this blank to use the full page title. ]]></phrase>
+  <phrase title="xa_ams_page_navigation" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Page navigation]]></phrase>
+  <phrase title="xa_ams_please_confirm_that_you_want_to_associate_an_existing_discussion_thread_with_article" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Please confirm that you want to associate an existing discussion thread with this article.]]></phrase>
+  <phrase title="xa_ams_please_confirm_that_you_want_to_lock_comments_on" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Please confirm that you want to lock comments on]]></phrase>
+  <phrase title="xa_ams_please_confirm_that_you_want_to_lock_ratings_on" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Please confirm that you want to lock ratings on]]></phrase>
+  <phrase title="xa_ams_please_confirm_that_you_want_to_unassociate_discussion_thread_from_article" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Please confirm that you want to unassociate discussion thread from this article.]]></phrase>
+  <phrase title="xa_ams_please_confirm_that_you_want_to_unlock_comments_on" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Please confirm that you want to unlock comments on]]></phrase>
+  <phrase title="xa_ams_please_confirm_that_you_want_to_unlock_ratings_on" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Please confirm that you want to unlock ratings on]]></phrase>
+  <phrase title="xa_ams_please_provide_review_with_your_rating" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Please provide a review with your rating.]]></phrase>
+  <phrase title="xa_ams_please_select_star_rating" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Please select rating.]]></phrase>
+  <phrase title="xa_ams_popular_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Popular articles]]></phrase>
+  <phrase title="xa_ams_post_article_in" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Post article in]]></phrase>
+  <phrase title="xa_ams_post_as_update" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Post as update]]></phrase>
+  <phrase title="xa_ams_post_as_update_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Send Alerts and Emails to members that are watching this article. If unchecked, will save as a Silent Edit.]]></phrase>
+  <phrase title="xa_ams_post_comment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Post Comment]]></phrase>
+  <phrase title="xa_ams_prefix_options" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Prefix options]]></phrase>
+  <phrase title="xa_ams_prefix_will_only_be_applied_if_valid_for_category" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[The prefix will only be applied if it is valid for the category the article is in or is being moved to.]]></phrase>
+  <phrase title="xa_ams_pros" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Pros]]></phrase>
+  <phrase title="xa_ams_provide_brief_summary_of_your_article_for_search_engines" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Provide a brief summary of your article for search engines.
+<br><br>
+A meta description can influence the decision of the searcher as to whether they want to click through on your article from search results or not. The more descriptive, attractive and relevant the description, the more likely someone will click through.
+
+]]></phrase>
+  <phrase title="xa_ams_provide_very_brief_description_of_your_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Provide a very brief description of your article.  
+<br><br>
+<b>Note</b>:  Leave this blank to use a snippet from the article as the description. ]]></phrase>
+  <phrase title="xa_ams_publish_date" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Publish date]]></phrase>
+  <phrase title="xa_ams_random" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Random]]></phrase>
+  <phrase title="xa_ams_rate_this_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rate this article]]></phrase>
+  <phrase title="xa_ams_rate_this_x" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[Rate this {term}]]></phrase>
+  <phrase title="xa_ams_rated" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rated]]></phrase>
+  <phrase title="xa_ams_rating_count" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Rating count]]></phrase>
+  <phrase title="xa_ams_rating_count_between" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Rating count between]]></phrase>
+  <phrase title="xa_ams_rating_date" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rating date]]></phrase>
+  <phrase title="xa_ams_ratings" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Ratings]]></phrase>
+  <phrase title="xa_ams_ratings_locked" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Ratings locked]]></phrase>
+  <phrase title="xa_ams_ratings_open" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Ratings open]]></phrase>
+  <phrase title="xa_ams_ratings_open_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[When enabled, registered users with appropriate permissions may rate/review this article.]]></phrase>
+  <phrase title="xa_ams_read_more" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Read more]]></phrase>
+  <phrase title="xa_ams_reassign_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Reassign article]]></phrase>
+  <phrase title="xa_ams_reassign_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Reassign articles]]></phrase>
+  <phrase title="xa_ams_reassign_comment" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Reassign comment]]></phrase>
+  <phrase title="xa_ams_reassign_review" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Reassign review]]></phrase>
+  <phrase title="xa_ams_reassign_series" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Reassign series]]></phrase>
+  <phrase title="xa_ams_rebuild_article_categories" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild article categories]]></phrase>
+  <phrase title="xa_ams_rebuild_article_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild article comments]]></phrase>
+  <phrase title="xa_ams_rebuild_article_embed_metadata" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild article embed metadata]]></phrase>
+  <phrase title="xa_ams_rebuild_article_page_embed_metadata" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Rebuild article page embed metadata]]></phrase>
+  <phrase title="xa_ams_rebuild_article_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild article reviews]]></phrase>
+  <phrase title="xa_ams_rebuild_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild articles]]></phrase>
+  <phrase title="xa_ams_rebuild_comment_embed_metadata" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild article comment embed metadata]]></phrase>
+  <phrase title="xa_ams_rebuild_review_embed_metadata" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild article review embed metadata]]></phrase>
+  <phrase title="xa_ams_rebuild_user_article_counts" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild user article counts]]></phrase>
+  <phrase title="xa_ams_rebuild_user_series_counts" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Rebuild user series counts]]></phrase>
+  <phrase title="xa_ams_remove_article_from_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Remove article from series]]></phrase>
+  <phrase title="xa_ams_requested_article_aleady_associated_with_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The requested article is already associated with a series.]]></phrase>
+  <phrase title="xa_ams_requested_article_not_found" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[The requested article could not be found.]]></phrase>
+  <phrase title="xa_ams_requested_comment_not_found" addon_id="XenAddons/AMS" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Requested comment not found.]]></phrase>
+  <phrase title="xa_ams_requested_rating_not_found" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Requested rating not found]]></phrase>
+  <phrase title="xa_ams_requested_review_not_found" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Requested review not found]]></phrase>
+  <phrase title="xa_ams_require_article_image" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Require article image]]></phrase>
+  <phrase title="xa_ams_require_article_image_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When this option is enabled, an image attachment must be uploaded in order for the article to be created.]]></phrase>
+  <phrase title="xa_ams_require_original_source" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Require original source]]></phrase>
+  <phrase title="xa_ams_require_original_source_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Enabling this will require the the original source fields to be filled in when creating or editing an article in this category. <b>Important Note</b>: An article moved into the category will not be required to have this data filled in, however, the next time the article is edited, the data will need to be filled in or the article can not be saved.]]></phrase>
+  <phrase title="xa_ams_require_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Require review]]></phrase>
+  <phrase title="xa_ams_require_review_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[When enabled, users must submit a review when rating an article.]]></phrase>
+  <phrase title="xa_ams_review_by_x_in_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Review by '{user}' in article '{title}']]></phrase>
+  <phrase title="xa_ams_review_content" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Review content]]></phrase>
+  <phrase title="xa_ams_review_count" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Review count]]></phrase>
+  <phrase title="xa_ams_review_count_between" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Review count between]]></phrase>
+  <phrase title="xa_ams_review_date" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Review date]]></phrase>
+  <phrase title="xa_ams_review_field_options" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Review field options]]></phrase>
+  <phrase title="xa_ams_review_fields" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Review fields]]></phrase>
+  <phrase title="xa_ams_review_is_required" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[A review is required.]]></phrase>
+  <phrase title="xa_ams_review_on_article_x_by_y" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Review on article <a href="{reviewLink}">{articleTitle}</a> by <a href="{userLink}">{userName}</a>]]></phrase>
+  <phrase title="xa_ams_review_on_article_x_was_reassigned_to_you" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[A review on the article {title} was reassigned to you.]]></phrase>
+  <phrase title="xa_ams_review_reactions" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[Review reactions]]></phrase>
+  <phrase title="xa_ams_reviewed" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Reviewed]]></phrase>
+  <phrase title="xa_ams_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Reviews]]></phrase>
+  <phrase title="xa_ams_reviews_posted_on" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Reviews posted on]]></phrase>
+  <phrase title="xa_ams_search_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Search articles]]></phrase>
+  <phrase title="xa_ams_search_child_categories_as_well" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Search child categories as well]]></phrase>
+  <phrase title="xa_ams_search_engine_optimization_options" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Search engine optimization options]]></phrase>
+  <phrase title="xa_ams_search_in_categories" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Search in categories]]></phrase>
+  <phrase title="xa_ams_select_article_explain" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Select the article that you want to add as a series part within this series.  This will associate the article with this series.  
+<br><br>
+<b>Note</b>: If the article that you are wanting to associate with this series is not listed above, you can attempt to associate a specific article by using the "Set article id" option below.]]></phrase>
+  <phrase title="xa_ams_select_category_for_feed" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Select the category into which new articles created from this feed will be posted. ]]></phrase>
+  <phrase title="xa_ams_select_or_set_article" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Select or set an article]]></phrase>
+  <phrase title="xa_ams_select_page" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Select page]]></phrase>
+  <phrase title="xa_ams_select_recent_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Select recent article]]></phrase>
+  <phrase title="xa_ams_select_series_part" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Select series part]]></phrase>
+  <phrase title="xa_ams_self_placement" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Self placement]]></phrase>
+  <phrase title="xa_ams_series" addon_id="XenAddons/AMS" global_cache="1" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series]]></phrase>
+  <phrase title="xa_ams_series_count" addon_id="XenAddons/AMS" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[Series count]]></phrase>
+  <phrase title="xa_ams_series_counts" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series counts]]></phrase>
+  <phrase title="xa_ams_series_icon" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series icon]]></phrase>
+  <phrase title="xa_ams_series_information" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Series information]]></phrase>
+  <phrase title="xa_ams_series_navigation" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series navigation]]></phrase>
+  <phrase title="xa_ams_series_options" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series options]]></phrase>
+  <phrase title="xa_ams_series_part_display_order_explain" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[The display order determines the order in which the series parts for this series will appear on the series page as well as determines the order in which the series part titles will appear within the series table of contents on article pages. 
+<br><br>
+<b>Tip:</b> Using increments of 10 or 100 when setting the display order allow you add a new series part between existing series parts without having to adjust display orders of multiple existing series parts.]]></phrase>
+  <phrase title="xa_ams_series_part_title" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Series part title]]></phrase>
+  <phrase title="xa_ams_series_part_title_explain" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[This title needs to be a shortened version of the article title.  The series part title is primarily used for the series table of contents. 
+<br><br>
+<b>Example</b>: "Part 1: Configuration" or "System Configuration" vs "Configuring the XBS 201F7 for advanced video and sound captures"]]></phrase>
+  <phrase title="xa_ams_series_parts" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Series parts]]></phrase>
+  <phrase title="xa_ams_series_quick_feature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Feature series]]></phrase>
+  <phrase title="xa_ams_series_quick_unfeature" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unfeature series]]></phrase>
+  <phrase title="xa_ams_series_table_of_contents" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series table of contents]]></phrase>
+  <phrase title="xa_ams_series_type" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Series type]]></phrase>
+  <phrase title="xa_ams_series_with_parts" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Series with parts]]></phrase>
+  <phrase title="xa_ams_series_x" addon_id="XenAddons/AMS" version_id="2000270" version_string="2.0.2"><![CDATA[Series '{title}']]></phrase>
+  <phrase title="xa_ams_series_x_was_reassigned_to_you" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[The series {title} was reassigned to you.]]></phrase>
+  <phrase title="xa_ams_set_article_id" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Set article id]]></phrase>
+  <phrase title="xa_ams_set_article_id_explain" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Set the ID of the article that you want to add as a series part within this series.  This will associate the article with this series. 
+<br><br>
+<b>Important Note</b>: Only staff members can add another member's article to a series.]]></phrase>
+  <phrase title="xa_ams_set_cover_image" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Set cover image]]></phrase>
+  <phrase title="xa_ams_share_this_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Share this article]]></phrase>
+  <phrase title="xa_ams_share_this_series" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Share this series]]></phrase>
+  <phrase title="xa_ams_share_this_x" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[Share this {term}]]></phrase>
+  <phrase title="xa_ams_sidebar_block" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Sidebar block]]></phrase>
+  <phrase title="xa_ams_soft_delete_articles" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Soft delete articles]]></phrase>
+  <phrase title="xa_ams_sort_order_explain" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Select the sort order to fetch articles by for this widget]]></phrase>
+  <phrase title="xa_ams_specific_category" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Specific category]]></phrase>
+  <phrase title="xa_ams_specified_article_does_not_have_poll_attached_to_it" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[The specified article does not have a poll attached to it.]]></phrase>
+  <phrase title="xa_ams_standard_index_page" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Standard index page]]></phrase>
+  <phrase title="xa_ams_stop_watching_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Stop watching articles]]></phrase>
+  <phrase title="xa_ams_submit_review_anonymously" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Submit review anonymously]]></phrase>
+  <phrase title="xa_ams_table_of_contents" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Table of contents]]></phrase>
+  <phrase title="xa_ams_term_x_article_y" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[{term} '{title}']]></phrase>
+  <phrase title="xa_ams_there_more_comments_to_display" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[There are more comments to display.]]></phrase>
+  <phrase title="xa_ams_there_no_articles_matching_your_filters" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[There are no articles matching your filters.]]></phrase>
+  <phrase title="xa_ams_there_no_comments_to_display" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[There are no comments to display.]]></phrase>
+  <phrase title="xa_ams_there_no_series_matching_your_filters" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[There are no series matching your filters]]></phrase>
+  <phrase title="xa_ams_this_article_in_series_x" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[This article is in the series {title}]]></phrase>
+  <phrase title="xa_ams_this_category" addon_id="XenAddons/AMS" version_id="2000054" version_string="2.0.0 Release Candidate 4"><![CDATA[This category]]></phrase>
+  <phrase title="xa_ams_this_user_still_able_to_view_article_not_reply" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[This user will still be able to view this article, but will not be able to comment or rate until the ban expires.
+]]></phrase>
+  <phrase title="xa_ams_thread_id" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Thread Id]]></phrase>
+  <phrase title="xa_ams_thread_id_explain" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Enter the thread id of an existing discussion thread.]]></phrase>
+  <phrase title="xa_ams_tile_view_layout" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Tile view]]></phrase>
+  <phrase title="xa_ams_top_below_rating" addon_id="XenAddons/AMS" version_id="2000015" version_string="2.0.0 Alpha 5"><![CDATA[Top - below rating]]></phrase>
+  <phrase title="xa_ams_top_rated_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Top rated articles]]></phrase>
+  <phrase title="xa_ams_trimmed_article_length" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Trimmed article length]]></phrase>
+  <phrase title="xa_ams_trimmed_article_length_explain" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[This option allows you to set a trimmed article length for the article view layout in which a "view more" link will appear. <b>NOTE</b> leave set to 0 to display the full article.]]></phrase>
+  <phrase title="xa_ams_unapprove_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unapprove articles]]></phrase>
+  <phrase title="xa_ams_unapprove_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unapprove comments]]></phrase>
+  <phrase title="xa_ams_unapprove_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unapprove reviews]]></phrase>
+  <phrase title="xa_ams_unassociate_discussion_thread" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[Unassociate discussion thread]]></phrase>
+  <phrase title="xa_ams_unassociate_discussion_thread_explain" addon_id="XenAddons/AMS" version_id="2000055" version_string="2.0.0 Release Candidate 5"><![CDATA[This action will unassociate the discussion thread from this article.]]></phrase>
+  <phrase title="xa_ams_undelete_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete article]]></phrase>
+  <phrase title="xa_ams_undelete_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete articles]]></phrase>
+  <phrase title="xa_ams_undelete_comment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete comment]]></phrase>
+  <phrase title="xa_ams_undelete_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete comments]]></phrase>
+  <phrase title="xa_ams_undelete_review" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete review]]></phrase>
+  <phrase title="xa_ams_undelete_reviews" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Undelete reviews]]></phrase>
+  <phrase title="xa_ams_unfeature_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unfeature articles]]></phrase>
+  <phrase title="xa_ams_unlock_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unlock comments]]></phrase>
+  <phrase title="xa_ams_unlock_ratings" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Unlock ratings]]></phrase>
+  <phrase title="xa_ams_unread_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unread articles]]></phrase>
+  <phrase title="xa_ams_unread_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unread comments]]></phrase>
+  <phrase title="xa_ams_unwatch_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unwatch article]]></phrase>
+  <phrase title="xa_ams_unwatch_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Unwatch series]]></phrase>
+  <phrase title="xa_ams_update_articles" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[Update articles]]></phrase>
+  <phrase title="xa_ams_update_discussion_thread" addon_id="XenAddons/AMS" version_id="2010270" version_string="2.1.2"><![CDATA[Update discussion thread]]></phrase>
+  <phrase title="xa_ams_update_thread_title_on_article_deletion" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Update thread title on article deletion]]></phrase>
+  <phrase title="xa_ams_upload_custom_icon" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Upload custom icon]]></phrase>
+  <phrase title="xa_ams_upload_new_icon" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Upload new icon]]></phrase>
+  <phrase title="xa_ams_user_has_added_at_least_x_articles" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: User has added at least X articles]]></phrase>
+  <phrase title="xa_ams_user_has_added_no_more_than_x_articles" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: User has added no more than X articles]]></phrase>
+  <phrase title="xa_ams_user_has_at_least_x_articles_currently_featured" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[AMS: User has at least X articles currently featured]]></phrase>
+  <phrase title="xa_ams_user_has_created_at_least_x_series" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: User has created at least X series]]></phrase>
+  <phrase title="xa_ams_user_has_no_more_than_x_articles_currently_featured" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[AMS: User has no more than X articles currently featured:]]></phrase>
+  <phrase title="xa_ams_user_has_posted_at_least_x_comments" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: User has posted at least X comments]]></phrase>
+  <phrase title="xa_ams_user_has_posted_at_least_x_reviews" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: User has posted at least X reviews]]></phrase>
+  <phrase title="xa_ams_user_has_posted_no_more_than_x_comments" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: User has posted no more than X comments]]></phrase>
+  <phrase title="xa_ams_user_has_posted_no_more_than_x_reviews" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[AMS: User has posted no more than X reviews]]></phrase>
+  <phrase title="xa_ams_view_all_featured_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View all featured articles]]></phrase>
+  <phrase title="xa_ams_view_all_featured_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View all featured series]]></phrase>
+  <phrase title="xa_ams_view_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View article]]></phrase>
+  <phrase title="xa_ams_view_article_item_x" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[View article item {id}]]></phrase>
+  <phrase title="xa_ams_view_full_x" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[View full {term}]]></phrase>
+  <phrase title="xa_ams_view_more_articles" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[View more articles]]></phrase>
+  <phrase title="xa_ams_view_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View series]]></phrase>
+  <phrase title="xa_ams_view_this_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[View this article]]></phrase>
+  <phrase title="xa_ams_viewable_by_user_groups" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Viewable by user groups]]></phrase>
+  <phrase title="xa_ams_viewing_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Viewing article]]></phrase>
+  <phrase title="xa_ams_viewing_article_category" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Viewing article category]]></phrase>
+  <phrase title="xa_ams_viewing_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Viewing articles]]></phrase>
+  <phrase title="xa_ams_viewing_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Viewing series]]></phrase>
+  <phrase title="xa_ams_watch_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watch article]]></phrase>
+  <phrase title="xa_ams_watch_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watch series]]></phrase>
+  <phrase title="xa_ams_watch_this_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watch this article]]></phrase>
+  <phrase title="xa_ams_watched_article_comment_email_html" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[<p>{author} commented on an article you are watching at {board_title}.</p>]]></phrase>
+  <phrase title="xa_ams_watched_article_email_html_footer" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[<p class="minorText">Please do not reply to this message. You must visit the forum to reply.</p>
+
+<p class="minorText">This message was sent to you because you opted to watch the article "{article}" at {board} with email notification of new comments and reviews.</p>
+
+<p class="minorText">If you no longer wish to receive these emails, you may <a href="{disable_this_link}">disable emails from this article</a> or <a href="{disable_all_link}">disable all emails</a>.</p>]]></phrase>
+  <phrase title="xa_ams_watched_article_review_email_html" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[<p>{author} posted a review on an article you are watching at {board_title}.</p>]]></phrase>
+  <phrase title="xa_ams_watched_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watched articles]]></phrase>
+  <phrase title="xa_ams_watched_category_article_email_html" addon_id="XenAddons/AMS" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[<p>{author} added an article to a category you are watching at {board}.</p>]]></phrase>
+  <phrase title="xa_ams_watched_category_email_html_footer" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[<p class="minorText">Please do not reply to this message. You must visit the forum to reply.</p>
+
+<p class="minorText">This message was sent to you because you opted to watch the category "{category}" at {board} with email notification of new articles.</p>
+
+<p class="minorText">If you no longer wish to receive these emails, you may <a href="{disable_this_link}">disable emails from this category</a> or <a href="{disable_all_link}">disable all emails</a>.</p>]]></phrase>
+  <phrase title="xa_ams_watched_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Watched series]]></phrase>
+  <phrase title="xa_ams_watched_series_article_email_html" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[<p>{author} added an article to a series you are watching at {board}.</p>]]></phrase>
+  <phrase title="xa_ams_watched_series_email_html_footer" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[<p class="minorText">Please do not reply to this message. You must visit the forum to reply.</p>
+
+<p class="minorText">This message was sent to you because you opted to watch the series "{series}" at {board} with email notification of new articles.</p>
+
+<p class="minorText">If you no longer wish to receive these emails, you may <a href="{disable_this_link}">disable emails from this series</a> or <a href="{disable_all_link}">disable all emails</a>.</p>]]></phrase>
+  <phrase title="xa_ams_x_added_article_y_to_series_z" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[{username} added the article {article} to the series {series}.]]></phrase>
+  <phrase title="xa_ams_x_commented_on_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{user} commented on the article {article}.]]></phrase>
+  <phrase title="xa_ams_x_created_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{name} created the article {title}.]]></phrase>
+  <phrase title="xa_ams_x_created_article_y_in_category_z" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{username} created the article {title} in {category}.]]></phrase>
+  <phrase title="xa_ams_x_has_not_added_any_articles_which_matches_your_filters" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{name} has not added any articles which matches your filters.]]></phrase>
+  <phrase title="xa_ams_x_information" addon_id="XenAddons/AMS" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[{term} information]]></phrase>
+  <phrase title="xa_ams_x_mentioned_you_in_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{name} mentioned you in the article {title}.]]></phrase>
+  <phrase title="xa_ams_x_mentioned_you_in_comment_on_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{user} mentioned you in a comment on article {article}.]]></phrase>
+  <phrase title="xa_ams_x_mentioned_you_in_review_on_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{user} mentioned you in a review on article {article}.]]></phrase>
+  <phrase title="xa_ams_x_posted_comment_on_article_item_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{username} posted a comment on the article {title}.]]></phrase>
+  <phrase title="xa_ams_x_quoted_your_comment_on_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{user} quoted your comment on the article {article}.]]></phrase>
+  <phrase title="xa_ams_x_reacted_to_an_anon_review_on_article_z" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[{user} reacted to an anonymous review on the article {article} with {reaction}.]]></phrase>
+  <phrase title="xa_ams_x_reacted_to_your_article_y" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[{user} reacted to your article {item} with {reaction}.]]></phrase>
+  <phrase title="xa_ams_x_reacted_to_your_comment_on_article_y" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[{user} reacted to your comment on article {article} with {reaction}.]]></phrase>
+  <phrase title="xa_ams_x_reacted_to_your_review_on_article_y" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[{user} reacted to your review on the article {article} with {reaction}.]]></phrase>
+  <phrase title="xa_ams_x_reacted_to_ys_article_z" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[{user} reacted to {author}'s article {item} with {reaction}.]]></phrase>
+  <phrase title="xa_ams_x_reacted_to_ys_comment_on_article_z" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[{user} reacted to {author}'s comment on article {article} with {reaction}.]]></phrase>
+  <phrase title="xa_ams_x_reacted_to_ys_review_on_article_z" addon_id="XenAddons/AMS" version_id="2010031" version_string="2.1.0 Beta 1"><![CDATA[{user} reacted to {author}'s review on article {article} with {reaction}.]]></phrase>
+  <phrase title="xa_ams_x_replied_review_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{name} replied to your review of the article {title}.]]></phrase>
+  <phrase title="xa_ams_x_reviewed_article_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[{username} reviewed the article {title}.]]></phrase>
+  <phrase title="xa_ams_you_are_no_longer_able_to_reply_article_x" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[You are no longer able to post comments on or rate the article {title}.]]></phrase>
+  <phrase title="xa_ams_you_do_not_have_any_existing_recent_articles_able_to_be_associated_with_series" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[You do not have any recent existing articles that are able to be associated with this series.
+<br><br>
+Use the "Set article id" option below to attempt to associate an article manually. ]]></phrase>
+  <phrase title="xa_ams_you_do_not_have_permission_to_add_this_article_to_this_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You do not have permission to add this article to this series. ]]></phrase>
+  <phrase title="xa_ams_you_have_already_rated_this_article_rerating_remove_existing" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You have already rated this article. Re-rating it will remove your existing rating or review.]]></phrase>
+  <phrase title="xa_ams_you_have_no_unread_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You have no unread articles. You may <a href="{link}" rel="nofollow">view all latest articles</a> instead.]]></phrase>
+  <phrase title="xa_ams_you_have_no_unread_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You have no unread comments. You may <a href="{link}" rel="nofollow">read all latest comments</a> instead.]]></phrase>
+  <phrase title="xa_ams_you_have_not_added_any_articles_which_matches_your_filters" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You have not added any articles which matches your filters.]]></phrase>
+  <phrase title="xa_ams_you_have_not_posted_any_articles_yet" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You have not posted any articles yet.]]></phrase>
+  <phrase title="xa_ams_you_must_select_recent_article_or_set_article_id" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[You must select a recent article or set an article id]]></phrase>
+  <phrase title="xa_ams_you_must_upload_at_least_one_image_attachment" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You must upload at least 1 image attachment.]]></phrase>
+  <phrase title="xa_ams_you_not_watching_any_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You are not watching any articles.]]></phrase>
+  <phrase title="xa_ams_you_not_watching_any_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[You are not watching any series. ]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_apply_prefix_to_x_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to apply a prefix to {total} article(s)?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_delete_this_rating" addon_id="XenAddons/AMS" version_id="2010370" version_string="2.1.3"><![CDATA[Are you sure you want to delete this rating?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_delete_this_review_response" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to delete this review response?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_delete_x_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to delete {total} article(s)?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_delete_x_comments" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to delete {total} comment(s)?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_delete_x_reviews" addon_id="XenAddons/AMS" version_id="2000170" version_string="2.0.1"><![CDATA[Are you sure you want to delete {total} review(s)?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_mark_all_articles_read" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to mark all articles read?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_mark_this_category_read" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to mark this category read?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_merge_x_articles" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Are you sure you want to merge {count} articles?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_merge_x_comments_together" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Are you sure you want to merge {count} comments together?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_move_x_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to move {total} article(s)?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_reassign_x_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to reassign {total} article(s)?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_remove_article_from_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to remove this article from the series? ]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_stop_watching_all_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to stop watching <b>all</b> articles?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_unwatch_this_article" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to unwatch this article?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_unwatch_this_series" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to unwatch this series?]]></phrase>
+  <phrase title="xa_ams_you_sure_you_want_to_update_notification_settings_for_all_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Are you sure you want to update your email notification settings for <b>all</b> articles?]]></phrase>
+  <phrase title="xa_ams_you_unable_reply_to_article_x_until_expiry_y" addon_id="XenAddons/AMS" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[You will be unable to post comments on or rate the article {title} until {expiry}.]]></phrase>
+  <phrase title="xa_ams_your_article_x_was_deleted" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your article {title} was deleted.]]></phrase>
+  <phrase title="xa_ams_your_article_x_was_edited" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your article {title} was edited.]]></phrase>
+  <phrase title="xa_ams_your_article_x_was_merged_into_article_y" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Your article {title} was merged into the article {target}.]]></phrase>
+  <phrase title="xa_ams_your_article_x_was_moved" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your article {title} was moved to a different category.]]></phrase>
+  <phrase title="xa_ams_your_article_x_was_reassigned_to_y" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your article {title} was reassigned to {to}.]]></phrase>
+  <phrase title="xa_ams_your_articles" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your articles]]></phrase>
+  <phrase title="xa_ams_your_comment_on_article_x_was_deleted" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your comment on the article {title} was deleted.]]></phrase>
+  <phrase title="xa_ams_your_comment_on_article_x_was_edited" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your comment on the article {title} was edited.]]></phrase>
+  <phrase title="xa_ams_your_comment_on_article_x_was_reassigned_to_y" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Your comment on the article {title} was reassigned to {to}.]]></phrase>
+  <phrase title="xa_ams_your_comments_in_article_x_were_merged_together" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Your comments in the article {source} were merged together.]]></phrase>
+  <phrase title="xa_ams_your_review_must_be_at_least_x_characters" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your review must be at least {min} characters.]]></phrase>
+  <phrase title="xa_ams_your_review_on_article_x_was_edited" addon_id="XenAddons/AMS" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[Your review on the article {title} was edited.]]></phrase>
+  <phrase title="xa_ams_your_review_on_article_x_was_reassigned_to_y" addon_id="XenAddons/AMS" version_id="2010570" version_string="2.1.5"><![CDATA[Your review on the article {title} was reassigned to {to}.]]></phrase>
+  <phrase title="xa_ams_your_review_on_x_was_deleted" addon_id="XenAddons/AMS" version_id="2000014" version_string="2.0.0 Alpha 4"><![CDATA[Your review on article {title} was deleted.]]></phrase>
+  <phrase title="xa_ams_your_series" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Your series]]></phrase>
+  <phrase title="xa_ams_your_series_x_was_reassigned_to_y" addon_id="XenAddons/AMS" version_id="2010670" version_string="2.1.6"><![CDATA[Your series {title} was reassigned to {to}.]]></phrase>
+</language>
