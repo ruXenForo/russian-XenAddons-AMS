@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" user_selectable="1" addon_id="XenAddons/AMS" base_version_id="2020170" export_version="2">
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" user_selectable="1" addon_id="XenAddons/AMS" base_version_id="2020970" export_version="2">
   <phrase title="activity_summary_def.xa_ams_latest_articles" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[AMS: Последние статьи]]></phrase>
   <phrase title="activity_summary_def.xa_ams_latest_comments" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[AMS: Последние комментарии]]></phrase>
   <phrase title="activity_summary_def.xa_ams_latest_reviews" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[AMS: Последние отзывы]]></phrase>
@@ -47,13 +47,14 @@
   <phrase title="cron_entry.xaAmsCleanUpDaily" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Ежедневная очистка]]></phrase>
   <phrase title="cron_entry.xaAmsCleanUpHourly" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Ежечасная очистка]]></phrase>
   <phrase title="cron_entry.xaAmsFeeder" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Корректор каналов]]></phrase>
+  <phrase title="cron_entry.xaAmsPublisher" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[AMS: Издатель]]></phrase>
   <phrase title="cron_entry.xaAmsViews" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Обновление счетчиков просмотров]]></phrase>
   <phrase title="cron_entry.xa_amsCacheStats" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Перестроение кэшей статистики системы управления статьями]]></phrase>
   <phrase title="custom_bb_code_desc.ams" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[BB-код для отображения статей и серий]]></phrase>
   <phrase title="custom_bb_code_example.ams" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[[AMS=article, X]BB-код статья AMS[/AMS]]]></phrase>
   <phrase title="custom_bb_code_output.ams" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_title.ams" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Статья/Серия]]></phrase>
-  <phrase title="member_stat.xa_ams_most_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Больше всех статей]]></phrase>
+  <phrase title="member_stat.xa_ams_most_articles" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Большинство статей]]></phrase>
   <phrase title="mod_log.ams_article_approve" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Статья одобрена]]></phrase>
   <phrase title="mod_log.ams_article_custom_fields_edit" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Поля статьи отредактированы]]></phrase>
   <phrase title="mod_log.ams_article_delete_hard" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Статья удалена физически]]></phrase>
@@ -129,6 +130,7 @@
   <phrase title="nav.xa_amsWatchedContent" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Отслеживаемые]]></phrase>
   <phrase title="nav.xa_amsWatchedSeries" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Отслеживаемые серии]]></phrase>
   <phrase title="nav.xa_amsYourArticles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ваши статьи]]></phrase>
+  <phrase title="nav.xa_amsYourAwaitingArticles" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Ваши ожидающие статьи]]></phrase>
   <phrase title="nav.xa_amsYourDraftArticles" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Ваши черновики статей]]></phrase>
   <phrase title="nav.xa_amsYourPublishedArticles" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Ваши опубликованные статьи]]></phrase>
   <phrase title="option.xaAmsAllowedFileExtensions" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Допустимые расширения файлов для вложений в статье]]></phrase>
@@ -140,7 +142,6 @@
   <phrase title="option.xaAmsArticlesPerPageAV" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество статей на странице (вид статьи)]]></phrase>
   <phrase title="option.xaAmsArticlesPerPageGV" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество статей на странице (вид сетки)]]></phrase>
   <phrase title="option.xaAmsArticlesPerPageTV" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество статей на странице (вид плитки)]]></phrase>
-  <phrase title="option.xaAmsAttachmentMaxPerArticle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Максимальное количество вложений на статью]]></phrase>
   <phrase title="option.xaAmsAuthorOtherArticlesCount" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество других статей автора]]></phrase>
   <phrase title="option.xaAmsAutoUnfeatureArticles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Автоматически отменять любые «рекомендованные» статьи старше x дней.]]></phrase>
   <phrase title="option.xaAmsCategoryOtherArticlesCount" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество других статей категории]]></phrase>
@@ -148,7 +149,12 @@
   <phrase title="option.xaAmsCommentsPerPage" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество комментариев на странице]]></phrase>
   <phrase title="option.xaAmsDisplayShareBelowArticle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Показывать иконки поделиться ниже статьи]]></phrase>
   <phrase title="option.xaAmsDisplayUserProfileAboutMe" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Использовать данные «Обо мне» для блока «Об авторе», если «Об авторе статьи» пусто]]></phrase>
+  <phrase title="option.xaAmsExcludeFeaturedArticlesFromListing" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Исключить рекомендованные статьи из списка статей на страницах индекса и категорий]]></phrase>
+  <phrase title="option.xaAmsExcludeFeaturedSeriesFromListing" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Исключить рекомендуемые серии из списка серий на индексной странице серий.]]></phrase>
+  <phrase title="option.xaAmsExpandCategoryNav" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Развернуть навигацию по категориям (все дерево)]]></phrase>
   <phrase title="option.xaAmsFeaturedArticlesDisplayType" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Тип отображения рекомендуемых статей]]></phrase>
+  <phrase title="option.xaAmsFeaturedArticlesLimit" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Лимит рекомендованных статей]]></phrase>
+  <phrase title="option.xaAmsFeaturedSeriesLimit" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Лимит рекомендованных серий]]></phrase>
   <phrase title="option.xaAmsFilesLocation" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Расположение файловых вложений]]></phrase>
   <phrase title="option.xaAmsGalleryLocation" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Расположение галереи изображений]]></phrase>
   <phrase title="option.xaAmsGoogleMapsEmbedApiKey" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ключ Google Maps для встраивания API]]></phrase>
@@ -157,10 +163,15 @@
   <phrase title="option.xaAmsLatestReviewsCutOffDays" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Последние отзывы отсечение в днях]]></phrase>
   <phrase title="option.xaAmsLimitedViewArticleLength" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ограничение длины просмотра статьи]]></phrase>
   <phrase title="option.xaAmsListDefaultOrder" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Порядок списка статей по умолчанию]]></phrase>
+  <phrase title="option.xaAmsLocalizeGoogleMaps" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Локализовать гугл карты]]></phrase>
   <phrase title="option.xaAmsLocationDisplayType" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Тип отображения местоположения]]></phrase>
   <phrase title="option.xaAmsMaxAllowedContributors" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Максимально допустимое число участников/соавторов]]></phrase>
   <phrase title="option.xaAmsMetaDescription" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Мета описание AMS]]></phrase>
   <phrase title="option.xaAmsMinimumReviewLength" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Минимальная длина отзыва]]></phrase>
+  <phrase title="option.xaAmsMoreFromAuthorLayoutType" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Тип макета]]></phrase>
+  <phrase title="option.xaAmsMoreFromAuthorLocation" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Показать местоположение]]></phrase>
+  <phrase title="option.xaAmsMoreInCategoryLayoutType" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Тип макета]]></phrase>
+  <phrase title="option.xaAmsMoreInCategoryLocation" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Показать местоположение]]></phrase>
   <phrase title="option.xaAmsOverrideStyle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Переопределить стиль по умолчанию]]></phrase>
   <phrase title="option.xaAmsRecentReviewsCount" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество последних отзывов]]></phrase>
   <phrase title="option.xaAmsReviewMaxLength" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Максимальная длина отзыва]]></phrase>
@@ -190,7 +201,6 @@
   <phrase title="option_explain.xaAmsArticlesPerPageAV" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество статей, которые будут перечислены на одну страницу на различных страницах с перечнем статей, использующих тип макета вид статьи.]]></phrase>
   <phrase title="option_explain.xaAmsArticlesPerPageGV" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество статей, которые будут перечислены на одну страницу на различных страницах с перечнем статей, использующих тип макета вид сетки.]]></phrase>
   <phrase title="option_explain.xaAmsArticlesPerPageTV" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество статей, которые будут перечислены на одну страницу на различных страницах с перечнем статей, использующих тип макета вид плитки.]]></phrase>
-  <phrase title="option_explain.xaAmsAttachmentMaxPerArticle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Используйте 0, чтобы разрешить неограниченное количество вложений на статью. Чтобы отключить вложения статей, используйте систему разрешений.]]></phrase>
   <phrase title="option_explain.xaAmsAuthorOtherArticlesCount" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Максимальное количество других статей для отображения от автора статьи. Используйте 0, чтобы отключить этот блок.]]></phrase>
   <phrase title="option_explain.xaAmsAutoUnfeatureArticles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Если включено, автоматически отменяются все рекомендуемые статьи старше x дней (со дня публикации статьи).]]></phrase>
   <phrase title="option_explain.xaAmsCategoryOtherArticlesCount" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Максимальное количество других статей для отображения статей из категории. Используйте 0, чтобы отключить этот блок.]]></phrase>
@@ -198,7 +208,14 @@
   <phrase title="option_explain.xaAmsCommentsPerPage" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[]]></phrase>
   <phrase title="option_explain.xaAmsDisplayShareBelowArticle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Когда эта опция включена, под статьей будут отображаться значки поделиться.]]></phrase>
   <phrase title="option_explain.xaAmsDisplayUserProfileAboutMe" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Если поле «Об авторе статьи» пусто, будет предпринята попытка использовать данные «Обо мне» из профиля участника для блока «Об авторе».]]></phrase>
+  <phrase title="option_explain.xaAmsExcludeFeaturedArticlesFromListing" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Если этот параметр включен, дубликаты статей будут удаляться со страниц индекса и категорий AMS, которые уже загружаются для карусели рекомендуемых статей или блока сетки.]]></phrase>
+  <phrase title="option_explain.xaAmsExcludeFeaturedSeriesFromListing" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Если этот параметр включен, дубликаты серий будут удалены со страницы указателя серий, которые уже загружаются для карусели рекомендуемых серий.]]></phrase>
+  <phrase title="option_explain.xaAmsExpandCategoryNav" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Если этот параметр включен, блок навигации по категориям развернет все дерево категорий.
+<br><br>
+<b>Примечание:</b> Если вы хотите контролировать раскрывающуюся навигацию по категориям на уровне каждой категории, <b>не устанавливайте этот параметр</b>, так как этот параметр переопределяет параметр для каждой категории. Вместо этого используйте опцию для каждой категории!]]></phrase>
   <phrase title="option_explain.xaAmsFeaturedArticlesDisplayType" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Выберите тип отображения, который Вы хотите использовать для отображения рекомендуемых статей на главной ams, страницах категорий и других различных страницах со списками статей.]]></phrase>
+  <phrase title="option_explain.xaAmsFeaturedArticlesLimit" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Количество рекомендуемых статей, которые вы хотите выбрать для отображения в карусели рекомендуемых статей на страницах индекса AMS и на страницах категорий AMS. Используйте 0, чтобы отключить карусель рекомендуемых статей или блочной сетки.  <b>Примечание:</b> Блок рекомендуемой сетки может отображать только 3 статьи.]]></phrase>
+  <phrase title="option_explain.xaAmsFeaturedSeriesLimit" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Количество рекомендуемых серий, которые вы хотите получить для отображения в карусели избранных серий на индексной странице серий AMS. Используйте 0, чтобы отключить карусель рекомендуемых серий.]]></phrase>
   <phrase title="option_explain.xaAmsFilesLocation" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Управляет тем, где будет отображаться коллекция загруженных файловых вложений.]]></phrase>
   <phrase title="option_explain.xaAmsGalleryLocation" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Управляет тем, где будет отображаться коллекция загруженных изображений]]></phrase>
   <phrase title="option_explain.xaAmsGoogleMapsEmbedApiKey" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Введите ключ API Google Maps здесь. Инструкции по созданию и извлечению ключа API Google Maps Embed можно найти <a href="https://developers.google.com/maps/documentation/embed/guide#api_key">здесь</a>.]]></phrase>
@@ -214,10 +231,19 @@
 <br>
 <b>Примечание:</b> Этот параметр также применяется к макету вид статьи.]]></phrase>
   <phrase title="option_explain.xaAmsListDefaultOrder" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[При просмотре различных страниц со списками статей это будет порядок сортировки по умолчанию.]]></phrase>
+  <phrase title="option_explain.xaAmsLocalizeGoogleMaps" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Если этот параметр включен, будет локализована гугл-карта Embed API на основе языковых настроек XF для просматривающего пользователя.]]></phrase>
   <phrase title="option_explain.xaAmsLocationDisplayType" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Управляет отображением данных о местоположении при просмотре статьи.]]></phrase>
   <phrase title="option_explain.xaAmsMaxAllowedContributors" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Максимально допустимое количество участников и/или соавторов, которое может быть установлено для данной статьи в категориях, допускающих участников/соавторов.]]></phrase>
   <phrase title="option_explain.xaAmsMetaDescription" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Введите мета-описание Вашей домашней страницы системы управления статьями. Это будет размещено внутри мета-тега описания на индексной странице AMS, поэтому избегайте использования HTML.]]></phrase>
   <phrase title="option_explain.xaAmsMinimumReviewLength" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Если отзыв введен, он не будет принят, если он не будет хотя бы таким длинным. Если отзыв не требуется, этот параметр будет игнорироваться, если отзыв не введен.]]></phrase>
+  <phrase title="option_explain.xaAmsMoreFromAuthorLayoutType" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Когда для параметра «Показать местоположение» выше установлено значение «Под статьей», вы можете выбрать тип макета, который вы хотите использовать для отображения статей в блоке "Еще от [автора]".
+<br><br>
+<b><span style="color:red;">Важное примечание</span></b>:  Если у просматривающего пользователя нет прав на просмотр вложений к статьям ams, блок "Еще от автора" будет отображаться в виде макета List View независимо от настройки этой опции.]]></phrase>
+  <phrase title="option_explain.xaAmsMoreFromAuthorLocation" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Контролирует, где будет отображаться блок "Еще от [имя автора]"]]></phrase>
+  <phrase title="option_explain.xaAmsMoreInCategoryLayoutType" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Когда для параметра «Показать местоположение» выше установлено значение «Под статьей», вы можете выбрать тип макета, который вы хотите использовать для отображения статей в блоке «Дополнительно в [название категории]».
+<br><br>
+<b><span style="color:red;">Важное примечание</span></b>:  Если у просматривающего пользователя нет прав на просмотр вложений к статьям ams, блок "Больше в категории" будет отображаться в типе макета List View независимо от настройки этой опции.]]></phrase>
+  <phrase title="option_explain.xaAmsMoreInCategoryLocation" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Определяет, где будет отображаться блок «Дополнительно в [название категории]»]]></phrase>
   <phrase title="option_explain.xaAmsOverrideStyle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Выбранный здесь стиль будет отображаться на всех страницах AMS вместо стиля по умолчанию.]]></phrase>
   <phrase title="option_explain.xaAmsRecentReviewsCount" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Максимальное количество последних отзывов для отображения на главной странице вид статьи.
 <br>
@@ -254,6 +280,7 @@
   <phrase title="permission.xa_ams_changeDatesOwn" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Изменение даты собственных статей]]></phrase>
   <phrase title="permission.xa_ams_changeDiscussionThread" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Изменение темы обсуждения]]></phrase>
   <phrase title="permission.xa_ams_contentVote" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Голосование за отзывы статей]]></phrase>
+  <phrase title="permission.xa_ams_contentVoteContributor" addon_id="XenAddons/AMS" version_id="2020270" version_string="2.2.2"><![CDATA[Голосование за обзоры статей (Владельцы/Контрибьюторы)]]></phrase>
   <phrase title="permission.xa_ams_createSeries" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Создание серий]]></phrase>
   <phrase title="permission.xa_ams_deleteAny" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Удаление любой статьи]]></phrase>
   <phrase title="permission.xa_ams_deleteAnyComment" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Удаление любого комментария]]></phrase>
@@ -299,6 +326,8 @@
   <phrase title="permission.xa_ams_manageOwnContributors" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Управление участниками/соавторами в своих статьях]]></phrase>
   <phrase title="permission.xa_ams_manageRatings" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Управление рейтингами]]></phrase>
   <phrase title="permission.xa_ams_maxArticleCount" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Максимальное количество статей для пользователя]]></phrase>
+  <phrase title="permission.xa_ams_maxAttachPerArticle" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Максимальное количество вложений на статью]]></phrase>
+  <phrase title="permission.xa_ams_maxAttachPerSeries" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Максимальное количество вложений на серию]]></phrase>
   <phrase title="permission.xa_ams_maxSeriesCount" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Максимальное количество серий для пользователя]]></phrase>
   <phrase title="permission.xa_ams_move" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Перемещение статей]]></phrase>
   <phrase title="permission.xa_ams_moveOwn" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Перемещение своих статей]]></phrase>
@@ -318,7 +347,7 @@
   <phrase title="permission.xa_ams_reviewReply" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ответ на отзывы для своих статей]]></phrase>
   <phrase title="permission.xa_ams_saveAsDraft" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Сохранение статьи как черновик]]></phrase>
   <phrase title="permission.xa_ams_setArticlesAuthorName" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Установка имени автора статей]]></phrase>
-  <phrase title="permission.xa_ams_setAuthorRatingOwn" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Установите авторский рейтинг собственных статей]]></phrase>
+  <phrase title="permission.xa_ams_setAuthorRatingOwn" addon_id="XenAddons/AMS" version_id="2020270" version_string="2.2.2"><![CDATA[Установка авторского рейтинга для собственных статей]]></phrase>
   <phrase title="permission.xa_ams_submitWithoutApproval" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Публикация статьи без одобрения]]></phrase>
   <phrase title="permission.xa_ams_tagAnyArticle" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Создание тегов для любых статей]]></phrase>
   <phrase title="permission.xa_ams_tagAnySeries" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Теги для любых серий]]></phrase>
@@ -338,6 +367,8 @@
   <phrase title="permission.xa_ams_uploadSeriesVideo" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Загрузка видео в сериях]]></phrase>
   <phrase title="permission.xa_ams_view" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Просмотр системы управления статьями]]></phrase>
   <phrase title="permission.xa_ams_viewArticleAttach" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Просмотр вложений в статье]]></phrase>
+  <phrase title="permission.xa_ams_viewArticleMap" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Просмотр карт статей]]></phrase>
+  <phrase title="permission.xa_ams_viewAwaiting" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Просмотр статей в ожидании]]></phrase>
   <phrase title="permission.xa_ams_viewCommentAttach" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Просмотр вложений в комментариях]]></phrase>
   <phrase title="permission.xa_ams_viewComments" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Просмотр комментариев]]></phrase>
   <phrase title="permission.xa_ams_viewDeleted" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Просмотр удаленных статей]]></phrase>
@@ -369,6 +400,24 @@
   <phrase title="permission_interface.xa_amsRatingModerator" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Права модератора Оценки/Отзыва]]></phrase>
   <phrase title="permission_interface.xa_amsSeries" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[AMS: Права серий]]></phrase>
   <phrase title="permission_interface.xa_amsSeriesModerator" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[AMS: Права модератора серий]]></phrase>
+  <phrase title="style_prop.xaAmsArticleViewLayoutElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Элементы макета просмотра статьи]]></phrase>
+  <phrase title="style_prop.xaAmsArticlesCarouselElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Элементы карусели последних статей]]></phrase>
+  <phrase title="style_prop.xaAmsArticlesCarouselShowType" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Тип показа карусели последних статей]]></phrase>
+  <phrase title="style_prop.xaAmsFeaturedCarouselElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Элементы карусели рекомендуемых статей]]></phrase>
+  <phrase title="style_prop.xaAmsFeaturedCarouselShowType" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Тип показа карусели рекомендуемых статей]]></phrase>
+  <phrase title="style_prop.xaAmsGridViewLayoutElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Элементы макета представления сеткой]]></phrase>
+  <phrase title="style_prop.xaAmsListViewLayoutElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Элементы макета представления списком]]></phrase>
+  <phrase title="style_prop.xaAmsTileViewLayoutElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Элементы макета представления мозаикой]]></phrase>
+  <phrase title="style_prop_desc.xaAmsArticleViewLayoutElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Выбранные здесь элементы будут отображаться в макете просмотра статьи.]]></phrase>
+  <phrase title="style_prop_desc.xaAmsArticlesCarouselElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Выбранные здесь элементы будут отображаться на виджетах, созданных с помощью определения виджета AMS: Последние статьи и стиля отображения "Full - Carousel"]]></phrase>
+  <phrase title="style_prop_desc.xaAmsArticlesCarouselShowType" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Этот параметр позволяет вам выбрать, показывать ли вам одну или две статьи за раз.]]></phrase>
+  <phrase title="style_prop_desc.xaAmsFeaturedCarouselElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Выбранные здесь элементы будут отображаться в карусели рекомендуемых в индексе AMS, на страницах категорий AMS и в виджетах рекомендуемой карусели AMS.]]></phrase>
+  <phrase title="style_prop_desc.xaAmsFeaturedCarouselShowType" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Этот параметр позволяет вам выбрать, показывать ли вам одну или две статьи за раз.]]></phrase>
+  <phrase title="style_prop_desc.xaAmsGridViewLayoutElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Выбранные здесь элементы будут отображаться в макете представления сеткой.]]></phrase>
+  <phrase title="style_prop_desc.xaAmsListViewLayoutElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Выбранные здесь элементы будут отображаться в макете представления списком.]]></phrase>
+  <phrase title="style_prop_desc.xaAmsTileViewLayoutElements" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Выбранные здесь элементы будут отображаться в макете представления мозаикой.]]></phrase>
+  <phrase title="style_prop_group.xaAmsAppearance" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[AMS: Внешний вид]]></phrase>
+  <phrase title="style_prop_group_desc.xaAmsAppearance" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Ряд свойств для управления внешним видом системы управления статьями XenAddons]]></phrase>
   <phrase title="thread_type.ams_article" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[AMS: Статья]]></phrase>
   <phrase title="widget_def.xa_ams_article_page_poll" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[AMS: Опрос страницы статьи]]></phrase>
   <phrase title="widget_def.xa_ams_article_poll" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Опрос в статье]]></phrase>
@@ -472,6 +521,7 @@
   <phrase title="xa_ams_approve_reviews" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Одобрить отзывы]]></phrase>
   <phrase title="xa_ams_approve_series" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Одобрить серию]]></phrase>
   <phrase title="xa_ams_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Статья]]></phrase>
+  <phrase title="xa_ams_article_awaiting_publishing" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Статья ожидает публикации]]></phrase>
   <phrase title="xa_ams_article_categories" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Категории Статьи]]></phrase>
   <phrase title="xa_ams_article_category" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Категория статьи]]></phrase>
   <phrase title="xa_ams_article_category_permissions" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Разрешения категории статьи]]></phrase>
@@ -481,7 +531,6 @@
   <phrase title="xa_ams_article_comments" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Комментарии к статье]]></phrase>
   <phrase title="xa_ams_article_contributors" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Соучастники статьи]]></phrase>
   <phrase title="xa_ams_article_count" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Счетчик статьи]]></phrase>
-  <phrase title="xa_ams_article_counts" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Количество статей]]></phrase>
   <phrase title="xa_ams_article_field_desc.asm_text_input_1" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[]]></phrase>
   <phrase title="xa_ams_article_field_options" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Параметры поля статьи]]></phrase>
   <phrase title="xa_ams_article_fields" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Поля статьи]]></phrase>
@@ -490,11 +539,13 @@
   <phrase title="xa_ams_article_list_default_sort_order" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Порядок сортировки списка статей по умолчанию]]></phrase>
   <phrase title="xa_ams_article_list_layout_type" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Тип макета списка статей]]></phrase>
   <phrase title="xa_ams_article_list_options" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Параметры списка статей]]></phrase>
+  <phrase title="xa_ams_article_page" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Страница статьи]]></phrase>
   <phrase title="xa_ams_article_page_in_x" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Страница статьи '{page_title}' в '{article_title}']]></phrase>
   <phrase title="xa_ams_article_page_options" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Параметры страницы статьи]]></phrase>
   <phrase title="xa_ams_article_page_x" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Страница статьи '{title}']]></phrase>
   <phrase title="xa_ams_article_pages" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Страницы статей]]></phrase>
   <phrase title="xa_ams_article_prefixes" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Префиксы статьи]]></phrase>
+  <phrase title="xa_ams_article_preview_snippet" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Фрагмент предпросмотра статьи]]></phrase>
   <phrase title="xa_ams_article_quick_feature" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Рекомендовать статью]]></phrase>
   <phrase title="xa_ams_article_quick_unfeature" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Отменить рекомендацию статьи]]></phrase>
   <phrase title="xa_ams_article_rating" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Рейтинг статьи]]></phrase>
@@ -524,7 +575,7 @@
   <phrase title="xa_ams_articles_categories" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Категории статей]]></phrase>
   <phrase title="xa_ams_articles_grid" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Сетка статей]]></phrase>
   <phrase title="xa_ams_articles_grid_block_explain" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Полноразмерный вид, отображающий статьи в контейнере блока сетки. (лучше всего использовать со случайным порядком сортировки)]]></phrase>
-  <phrase title="xa_ams_articles_grid_explain" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Полноразмерный вид, отображающий статьи в контейнере сетки.]]></phrase>
+  <phrase title="xa_ams_articles_queue" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Очередь статей]]></phrase>
   <phrase title="xa_ams_articles_statistics" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Статистика статей]]></phrase>
   <phrase title="xa_ams_articles_that_have_been_rated" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Статьи с рейтингом]]></phrase>
   <phrase title="xa_ams_articles_with_comments" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Статьи с комментариями]]></phrase>
@@ -539,6 +590,8 @@
   <phrase title="xa_ams_automatically_created_thread_prefix" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Префикс для автоматически созданной темы]]></phrase>
   <phrase title="xa_ams_automatically_post_in_article_thread_on_article_deletion" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Автоматическое сообщение в теме статьи об удалении статьи]]></phrase>
   <phrase title="xa_ams_avg_rating" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Средний рейтинг]]></phrase>
+  <phrase title="xa_ams_awaiting" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Ожидание]]></phrase>
+  <phrase title="xa_ams_awaiting_articles_by_x" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Статьи в ожидании от {name}]]></phrase>
   <phrase title="xa_ams_batch_update_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Пакетное обновление статей]]></phrase>
   <phrase title="xa_ams_below_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ниже статьи]]></phrase>
   <phrase title="xa_ams_block_title_link" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Блок заголовка ссылки]]></phrase>
@@ -574,6 +627,8 @@
   <phrase title="xa_ams_change_date" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Изменить дату]]></phrase>
   <phrase title="xa_ams_change_discussion_thread" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Изменить тему обсуждения]]></phrase>
   <phrase title="xa_ams_change_review_date" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Изменить дату отзыва]]></phrase>
+  <phrase title="xa_ams_change_scheduled_date" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Изменение запланированной даты]]></phrase>
+  <phrase title="xa_ams_change_scheduled_publish_date" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Изменение запланированной даты публикации]]></phrase>
   <phrase title="xa_ams_child_clone_settings" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Дочерний (параметры клонирования)]]></phrase>
   <phrase title="xa_ams_co_author" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Соавтор]]></phrase>
   <phrase title="xa_ams_comment_by_x" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Комментарий '{user}']]></phrase>
@@ -582,6 +637,7 @@
   <phrase title="xa_ams_comment_count" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество комментариев]]></phrase>
   <phrase title="xa_ams_comment_count_between" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество комментариев между]]></phrase>
   <phrase title="xa_ams_comment_date" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Дата комментария]]></phrase>
+  <phrase title="xa_ams_comment_on_article_x" addon_id="XenAddons/AMS" version_id="2020270" version_string="2.2.2"><![CDATA[Комментарий к статье '{title}']]></phrase>
   <phrase title="xa_ams_comment_on_article_x_by_y" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Комментария статьи <a href="{commentLink}">{articleTitle}</a> от <a href="{userLink}">{userName}</a>]]></phrase>
   <phrase title="xa_ams_comment_on_article_x_was_reassigned_to_you" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Комментарий к статье {title} был переназначен Вам.]]></phrase>
   <phrase title="xa_ams_comment_reactions" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Реакции на комментарий]]></phrase>
@@ -600,6 +656,7 @@
   <phrase title="xa_ams_contributors" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Соавторы]]></phrase>
   <phrase title="xa_ams_copy_ams_bb_code" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Копировать BB-код статьи]]></phrase>
   <phrase title="xa_ams_copy_url_bb_code" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Копировать BB-код адреса статьи]]></phrase>
+  <phrase title="xa_ams_cover_image" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Изображение обложки]]></phrase>
   <phrase title="xa_ams_create_date" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Дата создания]]></phrase>
   <phrase title="xa_ams_create_series" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Создать серию]]></phrase>
   <phrase title="xa_ams_cut_off_days" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Отсеченные дни]]></phrase>
@@ -649,7 +706,8 @@
   <phrase title="xa_ams_downloads" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Загрузки]]></phrase>
   <phrase title="xa_ams_draft" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Черновик]]></phrase>
   <phrase title="xa_ams_draft_articles_by_x" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Черновики статей от {name}]]></phrase>
-  <phrase title="xa_ams_draft_awaiting_publishing_before_being_displayed_publicly" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Черновик статьи ожидает публикации перед публичным показом!]]></phrase>
+  <phrase title="xa_ams_draft_awaiting_publishing_before_being_displayed_publicly" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Черновик статьи, ожидающий публикации перед публичным отображением! ]]></phrase>
+  <phrase title="xa_ams_draft_in_progress" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Черновик в процессе.]]></phrase>
   <phrase title="xa_ams_draft_page_not_visible_public" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Эта страница в настоящее время находится в черновике и не видна публично.]]></phrase>
   <phrase title="xa_ams_edit_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Редактировать статью]]></phrase>
   <phrase title="xa_ams_edit_comment" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Редактировать комментарий]]></phrase>
@@ -664,6 +722,10 @@
   <phrase title="xa_ams_embed_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Встраиваемые статьи]]></phrase>
   <phrase title="xa_ams_embed_articles_pages_series" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Встраивание статей/страниц/серий]]></phrase>
   <phrase title="xa_ams_existing_discussion_is_already_associated_with_another_content_type" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Существующая тема обсуждения уже связана с другой частью контента.]]></phrase>
+  <phrase title="xa_ams_expand_category_nav" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Развернуть навигацию по категориям]]></phrase>
+  <phrase title="xa_ams_expand_category_nav_explain" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Если этот параметр включен, эта категория будет развернута в блоке навигации по категориям (<b>только один подуровень</b>).
+<br><br>
+<b>Примечание:</b> Если вы хотите, чтобы все дерево категорий для этой конкретной категории было развернуто, вам нужно будет отредактировать каждую подкатегорию в деревьях и установить этот параметр.]]></phrase>
   <phrase title="xa_ams_explain_why_youre_giving_this_rating" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Объясните, почему Вы выставили такой рейтинг. Отзывы, которые не являются конструктивными, могут быть удалены без предварительного уведомления.]]></phrase>
   <phrase title="xa_ams_feature_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Рекомендовать статьи]]></phrase>
   <phrase title="xa_ams_feature_series" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Рекомендуемые серии]]></phrase>
@@ -671,7 +733,6 @@
   <phrase title="xa_ams_featured_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Рекомендуемые статьи]]></phrase>
   <phrase title="xa_ams_featured_articles_carousel_explain" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Полноразмерный вид, показывающий рекомендуемые статьи в слайдере в стиле карусели.]]></phrase>
   <phrase title="xa_ams_featured_articles_grid_block_explain" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Полноразмерный вид, отображающий характерные статьи в контейнере блока сетки.]]></phrase>
-  <phrase title="xa_ams_featured_articles_grid_explain" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Полноразмерный вид, отображающий рекомендуемые статьи в контейнере сетки.]]></phrase>
   <phrase title="xa_ams_featured_series" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Рекомендуемые серии]]></phrase>
   <phrase title="xa_ams_featured_series_carousel_explain" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Полноразмерный вид, показывающий рекомендуемые серии в виде слайдера в стиле карусели.]]></phrase>
   <phrase title="xa_ams_filter_own" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Владелец]]></phrase>
@@ -695,6 +756,7 @@
   <phrase title="xa_ams_if_selected_only_staff_will_be_able_to_see_who_wrote_this_review" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Если выбран, только сотрудники смогут увидеть, кто написал этот отзыв.]]></phrase>
   <phrase title="xa_ams_if_selected_post_made_automatically_explaining_article_unavailable" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Если этот параметр выбран, от имени создателя будет автоматически отправлено сообщение, объясняющее, что статья больше не доступна.]]></phrase>
   <phrase title="xa_ams_if_selected_users_required_select_prefix_when_creating_editing" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Если этот параметр выбран, пользователи должны будут выбрать префикс при создании или редактировании статьи. Это не будет применяться для модераторов.]]></phrase>
+  <phrase title="xa_ams_if_specified_all_visitors_view_using_selected_style" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Если указано, все посетители будут просматривать эту категорию и ее содержимое, используя выбранный стиль, независимо от их личных предпочтений.]]></phrase>
   <phrase title="xa_ams_include_article_comments" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Включить комментарии к статье]]></phrase>
   <phrase title="xa_ams_include_article_reviews" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Включить отзывы к статье]]></phrase>
   <phrase title="xa_ams_include_articles" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Включить статьи]]></phrase>
@@ -792,6 +854,7 @@
   <phrase title="xa_ams_no_change" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Нет изменений]]></phrase>
   <phrase title="xa_ams_no_gallery" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Нет галереи]]></phrase>
   <phrase title="xa_ams_no_pages_to_display" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Нет страниц для отображения]]></phrase>
+  <phrase title="xa_ams_no_pending_articles" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Нет статей, ожидающих рассмотрения (Черновиков/В Ожидании).]]></phrase>
   <phrase title="xa_ams_no_prefixes_available_for_selected_categories" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Нет префиксов для указанных категорий.]]></phrase>
   <phrase title="xa_ams_no_rating" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Без рейтинга]]></phrase>
   <phrase title="xa_ams_no_reviews_have_been_left_recently" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Нет отзывов за последнее время.]]></phrase>
@@ -850,7 +913,8 @@
   <phrase title="xa_ams_please_confirm_that_you_want_to_associate_an_existing_discussion_thread_with_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Подтвердите, что Вы хотите связать существующую тему обсуждения с этой статьей.]]></phrase>
   <phrase title="xa_ams_please_confirm_that_you_want_to_lock_comments_on" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Пожалуйста, подтвердите, что Вы хотите заблокировать комментарии]]></phrase>
   <phrase title="xa_ams_please_confirm_that_you_want_to_lock_ratings_on" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Пожалуйста, подтвердите, что Вы хотите заблокировать рейтинг]]></phrase>
-  <phrase title="xa_ams_please_confirm_that_you_want_to_publish_draft_article" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Пожалуйста, подтвердите, что Вы хотите опубликовать следующий черновик статьи]]></phrase>
+  <phrase title="xa_ams_please_confirm_that_you_want_to_publish_article_now" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Пожалуйста, подтвердите, что вы хотите опубликовать следующую статью сейчас]]></phrase>
+  <phrase title="xa_ams_please_confirm_that_you_want_to_publish_draft_article" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Пожалуйста, подтвердите, что вы хотите опубликовать следующий черновик статьи]]></phrase>
   <phrase title="xa_ams_please_confirm_that_you_want_to_unassociate_discussion_thread_from_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Пожалуйста, подтвердите, что Вы хотите отделить дискуссионную тему от этой статьи.]]></phrase>
   <phrase title="xa_ams_please_confirm_that_you_want_to_unlock_comments_on" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Пожалуйста, подтвердите, что Вы хотите разблокировать комментарии в]]></phrase>
   <phrase title="xa_ams_please_confirm_that_you_want_to_unlock_ratings_on" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Пожалуйста, подтвердите, что вы хотите разблокировать рейтинги в]]></phrase>
@@ -858,10 +922,12 @@
   <phrase title="xa_ams_please_provide_review_with_your_rating" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Пожалуйста, предоставьте отзыв с Вашим рейтингом.]]></phrase>
   <phrase title="xa_ams_please_select_star_rating" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Пожалуйста, выберите рейтинг.]]></phrase>
   <phrase title="xa_ams_popular_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Популярные статьи]]></phrase>
+  <phrase title="xa_ams_post_article" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Опубликовать статью]]></phrase>
   <phrase title="xa_ams_post_article_in" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Опубликовать статью в]]></phrase>
   <phrase title="xa_ams_post_as_update" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Опубликовать как обновление]]></phrase>
   <phrase title="xa_ams_post_as_update_explain" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Отправлять оповещения и электронные письма участникам, которые следят за этой статьей. Если флажок не установлен, будет сохранен как Скрытое Редактирование.]]></phrase>
   <phrase title="xa_ams_post_comment" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Оставьте комментарий]]></phrase>
+  <phrase title="xa_ams_post_x" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Опубликовать {term}]]></phrase>
   <phrase title="xa_ams_prefix_options" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Параметры префикса]]></phrase>
   <phrase title="xa_ams_prefix_will_only_be_applied_if_valid_for_category" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Префикс будет применяться только в том случае, если он действителен для категории, к которой относится или перемещается статья.]]></phrase>
   <phrase title="xa_ams_prev_page" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Предыдущая страница]]></phrase>
@@ -878,9 +944,13 @@
   <phrase title="xa_ams_provide_very_brief_description_of_your_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Предоставьте очень краткое описание Вашей статьи.
 <br>
 <b>Примечание</b>:  Оставьте это поле пустым, чтобы использовать фрагмент из статьи в качестве описания.]]></phrase>
+  <phrase title="xa_ams_publish_article_now" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Опубликовать статью сейчас]]></phrase>
+  <phrase title="xa_ams_publish_article_scheduled_date_time" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Опубликовать статью в запланированную дату/время]]></phrase>
   <phrase title="xa_ams_publish_date" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Дата публикации]]></phrase>
-  <phrase title="xa_ams_publish_draft" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Опубликовать черновик]]></phrase>
-  <phrase title="xa_ams_publish_draft_article" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Опубликовать черновик статьи]]></phrase>
+  <phrase title="xa_ams_publish_draft" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Опубликовать черновик]]></phrase>
+  <phrase title="xa_ams_publish_draft_article" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Опубликовать черновик статьи]]></phrase>
+  <phrase title="xa_ams_publish_now" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Опубликовать сейчас]]></phrase>
+  <phrase title="xa_ams_publish_scheduled" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Опубликовать по расписанию]]></phrase>
   <phrase title="xa_ams_random" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Случайно]]></phrase>
   <phrase title="xa_ams_rate_this_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Оценить эту статью]]></phrase>
   <phrase title="xa_ams_rate_this_x" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Оценить это {term}]]></phrase>
@@ -909,9 +979,7 @@
   <phrase title="xa_ams_rebuild_articles" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Перестраивание статей]]></phrase>
   <phrase title="xa_ams_rebuild_comment_embed_metadata" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Перестраивание встроенных метаданных комментариев статей]]></phrase>
   <phrase title="xa_ams_rebuild_review_embed_metadata" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Перестраивание встроенных метаданных отзывов статей]]></phrase>
-  <phrase title="xa_ams_rebuild_user_article_counts" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Перестроение счетчиков статей пользователя]]></phrase>
   <phrase title="xa_ams_rebuild_user_counts" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Перестраивание счетчиков пользователя]]></phrase>
-  <phrase title="xa_ams_rebuild_user_series_counts" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Перестраивание счетчиков серий пользователя]]></phrase>
   <phrase title="xa_ams_remove_article_from_series" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Удалить статью из серии]]></phrase>
   <phrase title="xa_ams_remove_contributors_co_authors" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Удалить авторов/соавторов]]></phrase>
   <phrase title="xa_ams_requested_article_aleady_associated_with_series" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Запрашиваемая статья уже связана с серией.]]></phrase>
@@ -940,6 +1008,7 @@
   <phrase title="xa_ams_review_date" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Дата отзыва]]></phrase>
   <phrase title="xa_ams_review_field_options" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Параметры поля отзыва]]></phrase>
   <phrase title="xa_ams_review_fields" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Поля отзыва]]></phrase>
+  <phrase title="xa_ams_review_for_x" addon_id="XenAddons/AMS" version_id="2020270" version_string="2.2.2"><![CDATA[Отзыв для '{title}']]></phrase>
   <phrase title="xa_ams_review_is_required" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Отзыв обязателен.]]></phrase>
   <phrase title="xa_ams_review_on_article_x_by_y" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Отзыв на статью <a href="{reviewLink}">{articleTitle}</a> от <a href="{userLink}">{userName}</a>]]></phrase>
   <phrase title="xa_ams_review_on_article_x_was_reassigned_to_you" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Отзыв на статью {title} был переназначен Вам.]]></phrase>
@@ -950,6 +1019,8 @@
   <phrase title="xa_ams_rich_text_snippet" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Фрагмент форматированного текста]]></phrase>
   <phrase title="xa_ams_save_article_as_draft" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[<b><font color="red">Сохранить статью как черновик</font></b>]]></phrase>
   <phrase title="xa_ams_save_article_as_draft_explain" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[<font color="red">Эта опция позволяет Вам сохранить эту статью как ЧЕРНОВИК статьи, а затем опубликовать ее после того, как Вы закончите писать статью. Доступ к черновикам статей можно получить на странице "Статьи >> Ваши статьи >> Ваши черновики статей"</font>]]></phrase>
+  <phrase title="xa_ams_scheduled_for_publishing" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Планируется к публикации]]></phrase>
+  <phrase title="xa_ams_scheduled_publish_date_must_be_set_into_the_future" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Запланированная дата публикации должна быть установлена в будущем!]]></phrase>
   <phrase title="xa_ams_search_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Поиск статей]]></phrase>
   <phrase title="xa_ams_search_child_categories_as_well" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Также искать и в дочерних категориях]]></phrase>
   <phrase title="xa_ams_search_engine_optimization_options" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Параметры поисковой оптимизации]]></phrase>
@@ -966,7 +1037,6 @@
   <phrase title="xa_ams_series" addon_id="XenAddons/AMS" global_cache="1" version_id="2010770" version_string="2.1.7"><![CDATA[Серии]]></phrase>
   <phrase title="xa_ams_series_block_title_link_explain" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Добавьте конкретный URL-адрес, на который будет ссылаться заголовок блока. <b>Если оставить это поле пустым, будет ссылка на главную страницу серий.</b>]]></phrase>
   <phrase title="xa_ams_series_count" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Количество серий]]></phrase>
-  <phrase title="xa_ams_series_counts" addon_id="XenAddons/AMS" version_id="2020170" version_string="2.2.1"><![CDATA[Количество серий]]></phrase>
   <phrase title="xa_ams_series_details" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Подробности серии]]></phrase>
   <phrase title="xa_ams_series_icon" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Иконка серии]]></phrase>
   <phrase title="xa_ams_series_information" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Информация о серии]]></phrase>
@@ -993,6 +1063,8 @@
   <phrase title="xa_ams_set_article_id_explain" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Установите идентификатор статьи, которую Вы хотите добавить как часть серии в этой серии. Это свяжет статью с этой серией.
 <br><br>
 <b>Важная заметка</b>: Только сотрудники могут добавить статью другого участника в серию.]]></phrase>
+  <phrase title="xa_ams_set_article_tags_for_automatically_created_thread" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Установка тегов статей для автоматически создаваемой темы]]></phrase>
+  <phrase title="xa_ams_set_article_tags_for_automatically_created_thread_explain" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Если эта функция включена, то при создании новой статьи, содержащей теги, эти теги также будут применяться к вновь созданной связанной с ней теме обсуждения.]]></phrase>
   <phrase title="xa_ams_set_co_authors" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Задать соавторов]]></phrase>
   <phrase title="xa_ams_set_cover_image" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Установить изображение обложки]]></phrase>
   <phrase title="xa_ams_set_page_cover_image" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Установка изображения обложки страницы]]></phrase>
@@ -1000,6 +1072,9 @@
   <phrase title="xa_ams_share_this_article_page" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Поделиться этой страницей статьи]]></phrase>
   <phrase title="xa_ams_share_this_series" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Поделиться этой серией]]></phrase>
   <phrase title="xa_ams_share_this_x" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Поделиться {term}]]></phrase>
+  <phrase title="xa_ams_show_1_article_at_a_time" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Показывать по 1 статье за раз]]></phrase>
+  <phrase title="xa_ams_show_2_articles_at_a_time" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Показывать по 2 статьи за раз]]></phrase>
+  <phrase title="xa_ams_show_new_items_indicator_on_articles_tab" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Показывать индикатор новых элементов на вкладке статей]]></phrase>
   <phrase title="xa_ams_sibling_clone_settings" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Однородный (параметры клонирования)]]></phrase>
   <phrase title="xa_ams_sidebar_block" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Блок боковой панели]]></phrase>
   <phrase title="xa_ams_soft_delete_articles" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Скрыть статьи от публичного просмотра]]></phrase>
@@ -1073,10 +1148,12 @@
   <phrase title="xa_ams_user_has_posted_at_least_x_reviews" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Пользователь опубликовал как минимум X отзывов]]></phrase>
   <phrase title="xa_ams_user_has_posted_no_more_than_x_comments" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Пользователь разместил не более X комментариев]]></phrase>
   <phrase title="xa_ams_user_has_posted_no_more_than_x_reviews" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[AMS: Пользователь разместил не более X отзывов]]></phrase>
+  <phrase title="xa_ams_username" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Имя пользователя]]></phrase>
   <phrase title="xa_ams_view_all_featured_articles" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Просмотр всех рекомендуемых статей]]></phrase>
   <phrase title="xa_ams_view_all_featured_series" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Просмотр всех рекомендуемых серий]]></phrase>
   <phrase title="xa_ams_view_all_series" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Просмотр всех серий]]></phrase>
   <phrase title="xa_ams_view_article" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Посмотреть статью]]></phrase>
+  <phrase title="xa_ams_view_article_button" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Кнопка просмотра статьи]]></phrase>
   <phrase title="xa_ams_view_article_item_x" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Посмотреть статью {id}]]></phrase>
   <phrase title="xa_ams_view_full_article" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[Просмотреть всю статью]]></phrase>
   <phrase title="xa_ams_view_full_x" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Посмотреть полностью {term}]]></phrase>
@@ -1114,6 +1191,7 @@
 <p class="minorText">Это сообщение было отправлено Вам, потому что Вы решили отслеживать серию "{series}" на {board} с уведомлением по электронной почте о новых статьях.</p>
 
 <p class="minorText">Если Вы больше не хотите получать эти электронные письма, Вы можете <a href="{disable_this_link}">отключить электронные письма из этой статьи</a> или <a href="{disable_all_link}">отключить все электронные письма</a>.</p>]]></phrase>
+  <phrase title="xa_ams_widget_article_display_style_explain" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[<b><span style="color:red;">Важное примечание</span></b>:  Если у просматривающего пользователя нет разрешения на просмотр вложений статьи ams, он не сможет просмотреть макеты Grid Block, Grid View, Tile View или Article View, вместо этого он будет просматривать Carousel (вместо Grid Block) или List View (вместо Grid View, TIle View или Article View). ]]></phrase>
   <phrase title="xa_ams_x_add_new_page_on_article_y" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[{user} добавил новую страницу {page} в статью {article}.]]></phrase>
   <phrase title="xa_ams_x_added_article_y_to_series_z" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[{username} добавил статью {article} в серию {series}.]]></phrase>
   <phrase title="xa_ams_x_added_new_page_to_article_y" addon_id="XenAddons/AMS" version_id="2011270" version_string="2.1.12"><![CDATA[{name} добавил новую страницу '{page_title}' в статью {title}.]]></phrase>
@@ -1159,6 +1237,7 @@
   <phrase title="xa_ams_you_have_not_added_any_articles_which_matches_your_filters" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Вы не добавили ни одной статьи, которая соответствует Вашим фильтрам.]]></phrase>
   <phrase title="xa_ams_you_have_not_posted_any_articles_yet" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Вы еще не опубликовали ни одной статьи.]]></phrase>
   <phrase title="xa_ams_you_may_have_up_to_x_contributors_co_authors" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[У Вас может быть до {number} участников и/или соавторов.]]></phrase>
+  <phrase title="xa_ams_you_may_not_add_articles_to_this_category" addon_id="XenAddons/AMS" version_id="2020970" version_string="2.2.9"><![CDATA[Вы не можете добавлять статьи в эту категорию.]]></phrase>
   <phrase title="xa_ams_you_may_not_add_following_co_authors_to_this_article_x" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[В эту статью нельзя добавить следующих соавторов: {names}]]></phrase>
   <phrase title="xa_ams_you_may_not_add_following_contributors_to_this_article_x" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Вы не можете добавить в эту статью следующих участников: {names}]]></phrase>
   <phrase title="xa_ams_you_may_only_add_x_contributors_co_authors_to_this_article" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[В эту статью можно добавить только {count} авторов или соавторов.]]></phrase>
@@ -1200,10 +1279,12 @@
   <phrase title="xa_ams_your_comments_in_article_x_were_merged_together" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ваши комментарии к статье {source} были объединены.]]></phrase>
   <phrase title="xa_ams_your_page_on_article_x_was_reassigned_to_y" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Ваша страница {page} в статье {article} была переназначена на {to}.]]></phrase>
   <phrase title="xa_ams_your_pages" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Ваши страницы]]></phrase>
+  <phrase title="xa_ams_your_reply_to_article_x_was_submitted" addon_id="XenAddons/AMS" version_id="2020270" version_string="2.2.2"><![CDATA[Ваш ответ на статью {title} был отправлен.]]></phrase>
   <phrase title="xa_ams_your_review_must_be_at_least_x_characters" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ваш отзыв должен не меньше {min} символов.]]></phrase>
   <phrase title="xa_ams_your_review_on_article_x_was_edited" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ваш отзыв к статье {title} был отредактирован.]]></phrase>
   <phrase title="xa_ams_your_review_on_article_x_was_reassigned_to_y" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ваш отзыв к статье {title} был переназначен на {to}.]]></phrase>
   <phrase title="xa_ams_your_review_on_x_was_deleted" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ваш отзыв к статье {title} был удален.]]></phrase>
+  <phrase title="xa_ams_your_review_to_article_x_was_submitted" addon_id="XenAddons/AMS" version_id="2020270" version_string="2.2.2"><![CDATA[Ваш отзыв на статью {title} был отправлен.]]></phrase>
   <phrase title="xa_ams_your_series" addon_id="XenAddons/AMS" version_id="2010770" version_string="2.1.7"><![CDATA[Ваши серии]]></phrase>
   <phrase title="xa_ams_your_series_x_has_been_approved" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Ваша серия {title} была одобрена.]]></phrase>
   <phrase title="xa_ams_your_series_x_was_deleted" addon_id="XenAddons/AMS" version_id="2020070" version_string="2.2.0"><![CDATA[Ваша серия {title} была удалена.]]></phrase>
